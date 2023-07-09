@@ -1,0 +1,526 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 9.66, 1.6330132484436, 1.7149416208267, },
+		bbMin = { -10.277115821838, -1.6330132484436, -0.039053902029991, },
+	},
+	collider = {
+		params = {
+			halfExtents = { 10.277116775513, 1.6330132484436, 0.87699776887894, },
+		},
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "BOX",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+            		{
+                        _meshId = 1,
+						materials = { "vehicle/waggon/RoLa/rumpf_ralpin.mtl", },
+						mesh = "vehicle/waggon/RoLa/rumpf_lod0.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+                    {
+                        children = {
+			                {
+                                _meshId = 3,
+				                materials = { "vehicle/waggon/RoLa/rumpf_ralpin.mtl", },
+				                mesh = "vehicle/waggon/RoLa/rad_lod0.msh",
+				                name = "rad",
+				                transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.1091, 0, 0, 1, },
+			                },
+			                {
+                                _meshId = 4,
+				                materials = { "vehicle/waggon/RoLa/rumpf_ralpin.mtl", },
+				                mesh = "vehicle/waggon/RoLa/rad_lod0.msh",
+				                name = "rad",
+				                transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.3405, 0, 0, 1, },
+			                },
+		                    {
+                                _meshId = 5,
+			                    materials = { "vehicle/waggon/RoLa/rumpf_ralpin.mtl", },
+			                    mesh = "vehicle/waggon/RoLa/rad_lod0.msh",
+			                    name = "rad",
+			                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.3405, 0, 0, 1, },
+		                    },
+		                    {
+                                _meshId = 6,
+			                    materials = { "vehicle/waggon/RoLa/rumpf_ralpin.mtl", },
+			                    mesh = "vehicle/waggon/RoLa/rad_lod0.msh",
+			                    name = "rad",
+			                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.1091, 0, 0, 1, },
+		                    },
+                            {
+                                _meshId = 7,
+		                        materials = { "vehicle/waggon/RoLa/rumpf_ralpin.mtl", },
+		                        mesh = "vehicle/waggon/RoLa/bogie_lod0.msh",
+		                        name = "bogie11",
+		                        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+                            },
+                        },
+                        name = "bogie2",
+			            transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.92588, 0, 0.189166, 1, },
+                    },
+                    {
+                        children = {
+			                {
+                                _meshId = 9,
+				                materials = { "vehicle/waggon/RoLa/rumpf_ralpin.mtl", },
+				                mesh = "vehicle/waggon/RoLa/rad_lod0.msh",
+				                name = "rad",
+				                transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.1091, 0, 0, 1, },
+			                },
+			                {
+                                _meshId = 10,
+				                materials = { "vehicle/waggon/RoLa/rumpf_ralpin.mtl", },
+				                mesh = "vehicle/waggon/RoLa/rad_lod0.msh",
+				                name = "rad",
+				                transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.3405, 0, 0, 1, },
+			                },
+		                    {
+                                _meshId = 11,
+			                    materials = { "vehicle/waggon/RoLa/rumpf_ralpin.mtl", },
+			                    mesh = "vehicle/waggon/RoLa/rad_lod0.msh",
+			                    name = "rad",
+			                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.3405, 0, 0, 1, },
+		                    },
+		                    {
+                                _meshId = 12,
+			                    materials = { "vehicle/waggon/RoLa/rumpf_ralpin.mtl", },
+			                    mesh = "vehicle/waggon/RoLa/rad_lod0.msh",
+			                    name = "rad",
+			                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.1091, 0, 0, 1, },
+		                    },
+                            {
+                                _meshId = 13,
+		                        materials = { "vehicle/waggon/RoLa/rumpf_ralpin.mtl", },
+		                        mesh = "vehicle/waggon/RoLa/bogie_lod0.msh",
+		                        name = "bogie11",
+		                        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+                            },
+                        },
+                        name = "bogie2",
+			            transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.92588, 0, 0.189166, 1, },
+                    },
+					{
+                        _meshId = 14,
+						materials = { "vehicle/waggon/RoLa/rumpf_ralpin.mtl", },
+						mesh = "vehicle/waggon/RoLa/kopfstueck_lod0.msh",
+						name = "tuer_vorne",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+                        _meshId = 15,
+						materials = { "vehicle/waggon/RoLa/rumpf_ralpin.mtl", },
+						mesh = "vehicle/waggon/RoLa/kopfstueck_lod0.msh",
+						name = "back_forward_part",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+                    {
+					    _meshId = 16,
+						materials = { "vehicle/waggon/zugschluss.mtl", },
+					    mesh = "vehicle/waggon/zugschluss/zugschluss_de_front.msh",
+                        name = "zugschluss_de_front",
+					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -9.81, 0.712, 1.2, 1,	},
+				    },
+                    {
+					    _meshId = 17,
+						materials = { "vehicle/waggon/zugschluss.mtl", },
+					    mesh = "vehicle/waggon/zugschluss/zugschluss_de_front.msh",
+                        name = "zugschluss_de_front",
+					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -9.81, -0.712, 1.2, 1,	},
+				    },
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 250,
+		},
+        {
+			node = {
+				children = {
+            		{
+						materials = { "vehicle/waggon/RoLa/rumpf_ralpin.mtl", },
+						mesh = "vehicle/waggon/RoLa/rumpf_lod1.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+                    {
+                        children = {
+			                {
+				                materials = { "vehicle/waggon/RoLa/rumpf_ralpin.mtl", },
+				                mesh = "vehicle/waggon/RoLa/rad_lod1.msh",
+				                name = "rad",
+				                transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.1091, 0, 0, 1, },
+			                },
+			                {
+				                materials = { "vehicle/waggon/RoLa/rumpf_ralpin.mtl", },
+				                mesh = "vehicle/waggon/RoLa/rad_lod1.msh",
+				                name = "rad",
+				                transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.3405, 0, 0, 1, },
+			                },
+		                    {
+			                    materials = { "vehicle/waggon/RoLa/rumpf_ralpin.mtl", },
+			                    mesh = "vehicle/waggon/RoLa/rad_lod1.msh",
+			                    name = "rad",
+			                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.3405, 0, 0, 1, },
+		                    },
+		                    {
+			                    materials = { "vehicle/waggon/RoLa/rumpf_ralpin.mtl", },
+			                    mesh = "vehicle/waggon/RoLa/rad_lod1.msh",
+			                    name = "rad",
+			                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.1091, 0, 0, 1, },
+		                    },
+                        },
+                        name = "bogie2",
+			            transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.92588, 0, 0.189166, 1, },
+                    },
+                    {
+                        children = {
+			                {
+				                materials = { "vehicle/waggon/RoLa/rumpf_ralpin.mtl", },
+				                mesh = "vehicle/waggon/RoLa/rad_lod1.msh",
+				                name = "rad",
+				                transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.1091, 0, 0, 1, },
+			                },
+			                {
+				                materials = { "vehicle/waggon/RoLa/rumpf_ralpin.mtl", },
+				                mesh = "vehicle/waggon/RoLa/rad_lod1.msh",
+				                name = "rad",
+				                transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.3405, 0, 0, 1, },
+			                },
+		                    {
+			                    materials = { "vehicle/waggon/RoLa/rumpf_ralpin.mtl", },
+			                    mesh = "vehicle/waggon/RoLa/rad_lod1.msh",
+			                    name = "rad",
+			                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.3405, 0, 0, 1, },
+		                    },
+		                    {
+			                    materials = { "vehicle/waggon/RoLa/rumpf_ralpin.mtl", },
+			                    mesh = "vehicle/waggon/RoLa/rad_lod1.msh",
+			                    name = "rad",
+			                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.1091, 0, 0, 1, },
+		                    },
+                        },
+                        name = "bogie2",
+			            transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.92588, 0, 0.189166, 1, },
+                    },
+					{
+						materials = { "vehicle/waggon/RoLa/rumpf_ralpin.mtl", },
+						mesh = "vehicle/waggon/RoLa/kopfstueck_lod1.msh",
+						name = "tuer_vorne",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/RoLa/rumpf_ralpin.mtl", },
+						mesh = "vehicle/waggon/RoLa/kopfstueck_lod1.msh",
+						name = "tuer_hinten",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 250,
+			visibleTo = 500,
+		},
+        {
+			node = {
+				children = {
+            		{
+						materials = { "vehicle/waggon/RoLa/rumpf_ralpin.mtl", },
+						mesh = "vehicle/waggon/RoLa/rumpf_lod2.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+                    {
+                        children = {
+			                {
+				                materials = { "vehicle/waggon/RoLa/rumpf_ralpin.mtl", },
+				                mesh = "vehicle/waggon/RoLa/rad_lod2.msh",
+				                name = "rad",
+				                transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.1091, 0, 0, 1, },
+			                },
+			                {
+				                materials = { "vehicle/waggon/RoLa/rumpf_ralpin.mtl", },
+				                mesh = "vehicle/waggon/RoLa/rad_lod2.msh",
+				                name = "rad",
+				                transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.3405, 0, 0, 1, },
+			                },
+		                    {
+			                    materials = { "vehicle/waggon/RoLa/rumpf_ralpin.mtl", },
+			                    mesh = "vehicle/waggon/RoLa/rad_lod2.msh",
+			                    name = "rad",
+			                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.3405, 0, 0, 1, },
+		                    },
+		                    {
+			                    materials = { "vehicle/waggon/RoLa/rumpf_ralpin.mtl", },
+			                    mesh = "vehicle/waggon/RoLa/rad_lod2.msh",
+			                    name = "rad",
+			                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.1091, 0, 0, 1, },
+		                    },
+                        },
+                        name = "bogie2",
+			            transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.92588, 0, 0.189166, 1, },
+                    },
+                    {
+                        children = {
+			                {
+				                materials = { "vehicle/waggon/RoLa/rumpf_ralpin.mtl", },
+				                mesh = "vehicle/waggon/RoLa/rad_lod2.msh",
+				                name = "rad",
+				                transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.1091, 0, 0, 1, },
+			                },
+			                {
+				                materials = { "vehicle/waggon/RoLa/rumpf_ralpin.mtl", },
+				                mesh = "vehicle/waggon/RoLa/rad_lod2.msh",
+				                name = "rad",
+				                transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.3405, 0, 0, 1, },
+			                },
+		                    {
+			                    materials = { "vehicle/waggon/RoLa/rumpf_ralpin.mtl", },
+			                    mesh = "vehicle/waggon/RoLa/rad_lod2.msh",
+			                    name = "rad",
+			                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.3405, 0, 0, 1, },
+		                    },
+		                    {
+			                    materials = { "vehicle/waggon/RoLa/rumpf_ralpin.mtl", },
+			                    mesh = "vehicle/waggon/RoLa/rad_lod2.msh",
+			                    name = "rad",
+			                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.1091, 0, 0, 1, },
+		                    },
+                        },
+                        name = "bogie2",
+			            transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.92588, 0, 0.189166, 1, },
+                    },
+					{
+						materials = { "vehicle/waggon/RoLa/rumpf_ralpin.mtl", },
+						mesh = "vehicle/waggon/RoLa/kopfstueck_lod2.msh",
+						name = "tuer_vorne",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/RoLa/rumpf_ralpin.mtl", },
+						mesh = "vehicle/waggon/RoLa/kopfstueck_lod2.msh",
+						name = "tuer_hinten",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 500,
+			visibleTo = 1500,
+		},
+	},
+	metadata = {
+		availability = {
+			yearFrom = 2001,
+--			yearTo = 1994,
+		},
+		cost = {
+			price = -1,
+			priceScale = 1,
+		},
+		emission = {
+			idleEmission = -1,
+			powerEmission = -1,
+			speedEmission = -1,
+		},
+		description = {
+			name = _("Saadkms_Back_RAlpin_name"),
+            description = _("Saadkms_Back_desc"),
+		},
+		maintenance = {
+			lifespan = 21925,
+			runningCostScale = 1,
+			runningCosts = -1,
+		},
+		railVehicle = {
+			configs = {
+				{
+                    axles = { "vehicle/waggon/RoLa/rad_lod0.msh", },
+                    backBackwardParts = { },
+                    backForwardParts = { 16, 17, },
+					fakeBogies = { },
+                    frontBackwardParts = { },
+                    frontForwardParts = { 14, },
+                    innerBackwardParts = { },
+                    innerForwardParts = { },
+				},
+                {
+                    axles = { "vehicle/waggon/RoLa/rad_lod1.msh", },
+                    backBackwardParts = { },
+                    backForwardParts = { },
+					fakeBogies = { },
+                    frontBackwardParts = { },
+                    frontForwardParts = { 12, },
+                    innerBackwardParts = { },
+                    innerForwardParts = { },
+				},
+                {
+                    axles = { "vehicle/waggon/RoLa/rad_lod2.msh", },
+                    backBackwardParts = { },
+                    backForwardParts = { },
+					fakeBogies = { },
+                    frontBackwardParts = { },
+                    frontForwardParts = { 12, },
+                    innerBackwardParts = { },
+                    innerForwardParts = { },
+				},
+			},
+			engines = { },
+			soundSet = { name = "waggon_freight_modern", },
+			topSpeed = 27.777778625488,
+			weight = 18,
+		},
+		cargoSlotProvider = {
+			slots = {
+				{
+					models = {
+						"asset/truck/mc_lkw_krone_dhl.mdl",
+						"asset/truck/mc_lkw_krone_ep.mdl",
+						"asset/truck/mc_lkw_krone_ewals.mdl",
+						"asset/truck/mc_lkw_krone_gw.mdl",
+						"asset/truck/mc_lkw_krone_schenker.mdl",
+						"asset/truck/mc_lkw_krone_walter.mdl",
+					},
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5.5, 0, 0.3, 1, },
+					randomId = 1,
+				},	
+			},
+		},	
+		transportVehicle = {
+			carrier = "RAIL",
+			compartments = {
+				{
+					{
+						{
+							capacity = 80,
+							customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+											{ },
+											{ 0 },	
+										},
+									},
+								},
+							},
+							type = "GOODS",
+						},
+					},
+                    {
+						{
+							capacity = 80,
+							customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+											{ },
+											{ 0 },	
+										},
+									},
+								},
+							},
+							type = "TOOLS",
+						},
+					},
+                    {
+						{
+							capacity = 80,
+							customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+											{ },
+											{ 0 },	
+										},
+									},
+								},
+							},
+							type = "MACHINES",
+						},
+					},
+                    {
+						{
+							capacity = 80,
+							customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+											{ },
+											{ 0 },	
+										},
+									},
+								},
+							},
+							type = "PLASTIC",
+						},
+					},
+                    {
+						{
+							capacity = 80,
+							customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+											{ },
+											{ 0 },	
+										},
+									},
+								},
+							},
+							type = "GRAIN",
+						},
+					},
+                    {
+						{
+							capacity = 80,
+							customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+											{ },
+											{ 0 },	
+										},
+									},
+								},
+							},
+							type = "FOOD",
+						},
+					},    
+                    {
+						{
+							capacity = 80,
+							customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+											{ },
+											{ 0 },	
+										},
+									},
+								},
+							},
+							type = "CONSTRUCTION_MATERIALS",
+						},
+					},
+				},
+			},
+			loadSpeed = 1,
+			groupFileName = "vehicle/waggon/RoLa/menu_RoLa.mdl",
+			multipleUnitOnly = false,
+			reversible = false,
+		},
+	},
+	version = 1,
+}
+end

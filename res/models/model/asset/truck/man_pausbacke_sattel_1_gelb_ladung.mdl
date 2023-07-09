@@ -1,0 +1,250 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 3.54, 1.31, 3.3 },
+		bbMin = { -10.6661, -1.31, 0 },
+	},
+	collider = {
+		params = {
+			halfExtents = { 3.1274220943451, 1.1996839046478, 1.5439674854279, },
+		},
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "BOX",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{
+                        children = {
+					        {
+						        _meshId = 2,
+                                materials = { "asset/truck/man_pausbacke_rumpf_1_gelb.mtl", },
+						        mesh = "vehicle/truck/man_pausbacke/rumpf_sattel_single_lod0.msh",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        _meshId = 3,
+                                materials = { "vehicle/truck/man_pausbacke/rumpf1.mtl", },
+						        mesh = "vehicle/truck/man_pausbacke/innen_lod0.msh",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        _meshId = 4,
+                                materials = { "vehicle/truck/man_pausbacke/beweglich.mtl", },
+						        mesh = "vehicle/truck/man_pausbacke/rad_lod0.msh",
+						        transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 2.33132, -0.9263, 0.525418, 1, },
+					        },
+					        {
+						        _meshId = 5,
+                                materials = { "vehicle/truck/man_pausbacke/beweglich.mtl", },
+						        mesh = "vehicle/truck/man_pausbacke/rad_lod0.msh",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.33132, 0.9263, 0.525418, 1, },
+					        },
+					        {
+						        _meshId = 6,
+                                materials = { "vehicle/truck/man_pausbacke/beweglich.mtl", },
+						        mesh = "vehicle/truck/man_pausbacke/achse_lod0.msh",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.725822, 0, 0.525418, 1, },
+					        },
+					        {
+						        _meshId = 11,
+                                materials = { "vehicle/truck/man_pausbacke/fenster.mtl", },
+						        mesh = "vehicle/truck/man_pausbacke/fenster_lod0.msh",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+                        },
+				        name = "LKW",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+                    },
+                    {
+                        children = {
+                            {
+						        _meshId = 13,
+                                materials = { "asset/truck/man_pausbacke_sattel_ladung_gelb.mtl", },
+						        mesh = "vehicle/truck/man_pausbacke/haenger_sattel_kurz_lod0.msh",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        _meshId = 14,
+                                materials = { "asset/truck/man_pausbacke_sattel_ladung_gelb.mtl", },
+						        mesh = "vehicle/truck/man_pausbacke/kasten_sattel_lod0.msh",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+                            {
+						        _meshId = 15,
+                                materials = { "vehicle/truck/man_pausbacke/beweglich.mtl", },
+						        mesh = "vehicle/truck/man_pausbacke/achse_lod0.msh",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.39668, 0, 0.525418, 1, },
+					        },
+                            {
+						        _meshId = 16,
+                                materials = { "vehicle/truck/man_pausbacke/beweglich.mtl", },
+						        mesh = "vehicle/truck/man_pausbacke/achse_single_lod0.msh",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.74918, 0, 0.525418, 1, },
+					        },
+					        {
+						        _meshId = 17,
+                                materials = { "asset/truck/man_pausbacke_sattel_ladung_gelb.mtl", },
+						        mesh = "vehicle/truck/man_pausbacke/leuchten_sattel_kasten_lod0.msh",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+                        },
+				        name = "Sattel",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.39988, 0, 0, 1, },
+                    },
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 150,
+		},
+        {
+			node = {
+				children = {
+					{
+						children = {
+					        {
+                                _meshId = 2,
+                                materials = { "asset/truck/man_pausbacke_rumpf_1_gelb.mtl", },
+						        mesh = "vehicle/truck/man_pausbacke/rumpf_sattel_single_lod1.msh",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        _meshId = 3,
+                                materials = { "vehicle/truck/man_pausbacke/beweglich.mtl", },
+						        mesh = "vehicle/truck/man_pausbacke/rad_lod1.msh",
+						        transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 2.33132, -0.9263, 0.525418, 1, },
+					        },
+					        {
+						        _meshId = 4,
+                                materials = { "vehicle/truck/man_pausbacke/beweglich.mtl", },
+						        mesh = "vehicle/truck/man_pausbacke/rad_lod1.msh",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.33132, 0.9263, 0.525418, 1, },
+					        },
+					        {
+						        _meshId = 5,
+                                materials = { "vehicle/truck/man_pausbacke/beweglich.mtl", },
+						        mesh = "vehicle/truck/man_pausbacke/achse_lod1.msh",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.725822, 0, 0.525418, 1, },
+					        },
+                        },
+				        name = "LKW",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+                    },
+                    {
+                        children = {
+                            {
+						        _meshId = 11,
+                                materials = { "asset/truck/man_pausbacke_sattel_ladung_gelb.mtl", },
+						        mesh = "vehicle/truck/man_pausbacke/haenger_sattel_kurz_lod1.msh",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        _meshId = 12,
+                                materials = { "asset/truck/man_pausbacke_sattel_ladung_gelb.mtl", },
+						        mesh = "vehicle/truck/man_pausbacke/kasten_sattel_lod1.msh",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+                            {
+						        _meshId = 13,
+                                materials = { "vehicle/truck/man_pausbacke/beweglich.mtl", },
+						        mesh = "vehicle/truck/man_pausbacke/achse_lod1.msh",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.39668, 0, 0.525418, 1, },
+					        },
+                            {
+						        _meshId = 14,
+                                materials = { "vehicle/truck/man_pausbacke/beweglich.mtl", },
+						        mesh = "vehicle/truck/man_pausbacke/achse_single_lod1.msh",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.74918, 0, 0.525418, 1, },
+					        },
+                        },
+				        name = "Sattel",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.39988, 0, 0, 1, },
+                    },
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 150,
+			visibleTo = 250,
+		},
+        {
+			node = {
+				children = {
+                    {
+					    children = {
+					        {
+						        _meshId = 2,
+                                materials = { "asset/truck/man_pausbacke_rumpf_1_gelb.mtl", },
+						        mesh = "vehicle/truck/man_pausbacke/rumpf_sattel_single_lod2.msh",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        _meshId = 3,
+                                materials = { "vehicle/truck/man_pausbacke/beweglich.mtl", },
+						        mesh = "vehicle/truck/man_pausbacke/rad_lod2.msh",
+						        transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 2.33132, -0.9263, 0.525418, 1, },
+					        },
+					        {
+						        _meshId = 4,
+                                materials = { "vehicle/truck/man_pausbacke/beweglich.mtl", },
+						        mesh = "vehicle/truck/man_pausbacke/rad_lod2.msh",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.33132, 0.9263, 0.525418, 1, },
+					        },
+					        {
+						        _meshId = 5,
+                                materials = { "vehicle/truck/man_pausbacke/beweglich.mtl", },
+						        mesh = "vehicle/truck/man_pausbacke/achse_lod2.msh",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.725822, 0, 0.525418, 1, },
+					        },
+                        },
+				        name = "LKW",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+                    },
+                    {
+                        children = {
+                            {
+						        _meshId = 7,
+                                materials = { "asset/truck/man_pausbacke_sattel_ladung_gelb.mtl", },
+						        mesh = "vehicle/truck/man_pausbacke/haenger_sattel_kurz_lod2.msh",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        _meshId = 8,
+                                materials = { "asset/truck/man_pausbacke_sattel_ladung_gelb.mtl", },
+						        mesh = "vehicle/truck/man_pausbacke/kasten_sattel_lod2.msh",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+                            {
+						        _meshId = 9,
+                                materials = { "vehicle/truck/man_pausbacke/beweglich.mtl", },
+						        mesh = "vehicle/truck/man_pausbacke/achse_lod1.msh",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.39668, 0, 0.525418, 1, },
+					        },
+                            {
+						        _meshId = 10,
+                                materials = { "vehicle/truck/man_pausbacke/beweglich.mtl", },
+						        mesh = "vehicle/truck/man_pausbacke/achse_single_lod1.msh",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.74918, 0, 0.525418, 1, },
+					        },
+                        },
+				        name = "Haenger",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.39988, 0, 0, 1, },
+                    },
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 250,
+			visibleTo = 1000,
+		},
+	},
+	metadata = { },
+	version = 1,
+}
+end

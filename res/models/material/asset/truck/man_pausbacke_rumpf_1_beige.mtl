@@ -1,0 +1,65 @@
+function data()
+return {
+	order = 0,
+	params = {
+		color_blend = {
+			albedoScales = { 1.460000038147, },
+			colors = { { 0.41960799694061, 0.41405600309372, 0.35214099287987, }, },
+		},
+		fade_out_range = {
+			fadeOutEndDist = 20000,
+			fadeOutStartDist = 10000,
+		},
+		map_albedo = {
+			fileName = "models/vehicle/truck/man_pausbacke/rumpf1_albedo.dds",
+			scaleDownAllowed = false,
+			type = "TWOD",
+		},
+		map_cblend_dirt_rust = {
+			fileName = "models/vehicle/truck/man_pausbacke/rumpf_cblend_dirt_rust.dds",
+			type = "TWOD",
+		},
+		map_dirt = {
+			fileName = "models/vehicle/dirt_albedo.dds",
+			type = "TWOD",
+		},
+		map_dirt_normal = {
+			fileName = "models/vehicle/dirt_normal.dds",
+			redGreen = true,
+			type = "TWOD",
+		},
+		map_metal_gloss_ao = {
+			fileName = "models/vehicle/truck/man_pausbacke/rumpf_metal_gloss_ao.dds",
+			scaleDownAllowed = false,
+			type = "TWOD",
+		},
+		map_normal = {
+			fileName = "models/vehicle/truck/man_pausbacke/rumpf_normal.dds",
+			redGreen = true,
+			type = "TWOD",
+		},
+		map_rust = {
+			fileName = "models/vehicle/rust_albedo.dds",
+			type = "TWOD",
+		},
+		map_rust_normal = {
+			fileName = "models/vehicle/rust_normal.dds",
+			redGreen = true,
+			type = "TWOD",
+		},
+		normal_scale = {
+			normalScale = 1,
+		},
+		polygon_offset = {
+			factor = 0,
+			forceDepthWrite = false,
+			units = 0,
+		},
+		two_sided = {
+			flipNormal = true,
+			twoSided = false,
+		},
+	},
+	type = "PHYSICAL_NRML_MAP_CBLEND_DIRT",
+}
+end
