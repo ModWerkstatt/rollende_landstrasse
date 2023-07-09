@@ -33,6 +33,31 @@ return {
         ["Bcmz_Oebb_name"] = "Bcmz ÖBB Ökombi",
         ["RoLaBegleitwagen_desc"] = "The trucks stand on the flat cars of the RoRo while the drivers are accommodated in an escort car. These are couchette cars and offer space to rest and recover during the journey.",
 
+		--- Fake ---
+
+        ["RoLa_menu_fake"] = "RoRo \"Rolling Road\"",
+        ["Saadkms_Back_DB_fake_name"] = "Saadkms 690 DB (back) Fake",
+		["Saadkms_Back_DBAG_fake_name"] = "Saadkms 690 DB AG (back) Fake",
+		["Saadkms_Back_OEBB_Oekombi_fake_name"] = "Saadkms 690 ÖBB Ökombi (back) Fake",
+		["Saadkms_Back_OEBB_fake_name"] = "Saadkms 690 ÖBB (back) Fake",
+		["Saadkms_Back_RAlpin_fake_name"] = "Saadkms 690 RAlpin (back) Fake",
+		["Saadkms_Back_Hupac_fake_name"] = "Saadkms 690 Hupac (back) Fake",
+		["Saadkms_Front_DB_fake_name"] = "Saadkms 690 DB (front) Fake",
+        ["Saadkms_Front_DBAG_fake_name"] = "Saadkms 690 DB AG (front) Fake",
+        ["Saadkms_Front_OEBB_Oekombi_fake_name"] = "Saadkms 690 ÖBB Ökombi (front) Fake",
+        ["Saadkms_Front_OEBB_fake_name"] = "Saadkms 690 ÖBB (front) Fake",
+        ["Saadkms_Front_RAlpin_fake_name"] = "Saadkms 690 RAlpin (front) Fake",
+        ["Saadkms_Front_Hupac_fake_name"] = "Saadkms 690 Hupac (front) Fake",
+		["Saadkms_DB_fake_name"] = "Saadkms 690 DB Fake",
+        ["Saadkms_DBAG_fake_name"] = "Saadkms 690 DB AG Fake",
+        ["Saadkms_OEBB_Oekombi_fake_name"] = "Saadkms 690 ÖBB Ökombi Fake",
+        ["Saadkms_OEBB_fake_name"] = "Saadkms 690 ÖBB Fake",
+        ["Saadkms_RAlpin_fake_name"] = "Saadkms 690 RAlpin Fake",
+        ["Saadkms_Hupac_fake_name"] = "Saadkms 690 Hupac Fake",
+
+        ["Bcm243_fake_name"] = "Bcm 243 DB Fake",
+        ["Bcm255_fake_name"] = "Bcm 255 DB AG Fake",
+        ["Bcmz_Oebb_fake_name"] = "Bcmz ÖBB Ökombi Fake",
 	},
 	de = {
 
@@ -67,6 +92,31 @@ return {
         ["Bcmz_Oebb_name"] = "Bcmz ÖBB Ökombi",
         ["RoLaBegleitwagen_desc"] = "Auf den Flachwagen der RoLa stehen die LKW während die Fahrer in einem Begleitwagen untergebracht werden. Dies sind Liegewagen und bieten Raum zum Ausruhen und Erholung während der Fahrt.",
 
+		--- Fake ---
+
+        ["RoLa_menu_fake"] = "Rollende Landstraße",
+        ["Saadkms_Back_DB_fake_name"] = "Saadkms 690 DB (hinten) Fake",
+		["Saadkms_Back_DBAG_fake_name"] = "Saadkms 690 DB AG (hinten) Fake",
+		["Saadkms_Back_OEBB_Oekombi_fake_name"] = "Saadkms 690 ÖBB Ökombi (hinten) Fake",
+		["Saadkms_Back_OEBB_fake_name"] = "Saadkms 690 ÖBB (hinten) Fake",
+		["Saadkms_Back_RAlpin_fake_name"] = "Saadkms 690 RAlpin (hinten) Fake",
+		["Saadkms_Back_Hupac_fake_name"] = "Saadkms 690 Hupac (hinten) Fake",
+		["Saadkms_Front_DB_fake_name"] = "Saadkms 690 DB (vorne) Fake",
+        ["Saadkms_Front_DBAG_fake_name"] = "Saadkms 690 DB AG (vorne) Fake",
+        ["Saadkms_Front_OEBB_Oekombi_fake_name"] = "Saadkms 690 ÖBB Ökombi (vorne) Fake",
+        ["Saadkms_Front_OEBB_fake_name"] = "Saadkms 690 ÖBB (vorne) Fake",
+        ["Saadkms_Front_RAlpin_fake_name"] = "Saadkms 690 RAlpin (vorne) Fake",
+        ["Saadkms_Front_Hupac_fake_name"] = "Saadkms 690 Hupac (vorne) Fake",
+		["Saadkms_DB_fake_name"] = "Saadkms 690 DB Fake",
+        ["Saadkms_DBAG_fake_name"] = "Saadkms 690 DB AG Fake",
+        ["Saadkms_OEBB_Oekombi_fake_name"] = "Saadkms 690 ÖBB Ökombi Fake",
+        ["Saadkms_OEBB_fake_name"] = "Saadkms 690 ÖBB Fake",
+        ["Saadkms_RAlpin_fake_name"] = "Saadkms 690 RAlpin Fake",
+        ["Saadkms_Hupac_fake_name"] = "Saadkms 690 Hupac Fake",
+
+        ["Bcm243_fake_name"] = "Bcm 243 DB Fake",
+        ["Bcm255_fake_name"] = "Bcm 255 DB AG Fake",
+        ["Bcmz_Oebb_fake_name"] = "Bcmz ÖBB Ökombi Fake",
 	},
 }
 end

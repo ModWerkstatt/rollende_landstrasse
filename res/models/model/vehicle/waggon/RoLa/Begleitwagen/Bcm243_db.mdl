@@ -3371,7 +3371,7 @@ return {
 					},
 				},
 			},
-			loadSpeed = 2,
+			loadSpeed = 4,
 			multipleUnitOnly = false,
 			reversible = false,
 			groupFileName = "vehicle/waggon/RoLa/menu_RoLa.mdl",
