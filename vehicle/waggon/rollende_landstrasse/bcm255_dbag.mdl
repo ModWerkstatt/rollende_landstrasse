@@ -1,0 +1,3200 @@
+function data()
+return { 
+		boundingInfo = { 
+			bbMax = { 13.176, 1.45723, 4.17571, },
+			bbMin = { -13.176, -1.45723, 0, },
+		},
+		collider = { 
+			params = { 
+				halfExtents = { 32.2443, 1.50485, 2.10658, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/rumpf_rola_dbag.mtl", },
+							mesh = "msh/rumpf_neu_lod0.msh",
+							name = "neu_rumpf",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mw_mwagen::/vehicle/waggon/m_wagen/mat/shared/allgemein.mtl", },
+							mesh = "msh/uebergang_lod0.msh",
+							name = "ubergang",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/rumpf_rola_dbag.mtl", },
+							mesh = "msh/details_neu_lod0.msh",
+							name = "details",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "mw_mwagen::/vehicle/waggon/m_wagen/mat/shared/allgemein.mtl", },
+									mesh = "msh/bogie_lod0.msh",
+									name = "bogie",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mw_mwagen::/vehicle/waggon/m_wagen/mat/shared/allgemein.mtl", },
+									mesh = "msh/rad_lod0.msh",
+									name = "rad",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.24191, 0, 0.469196, 1, },
+								},
+								{ 
+									materials = { "mw_mwagen::/vehicle/waggon/m_wagen/mat/shared/allgemein.mtl", },
+									mesh = "msh/rad_lod0.msh",
+									name = "rad",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.24191, 0, 0.469196, 1, },
+								},
+							},
+							name = "bogie1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 9.46909, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "mw_mwagen::/vehicle/waggon/m_wagen/mat/shared/allgemein.mtl", },
+									mesh = "msh/bogie_lod0.msh",
+									name = "bogie",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mw_mwagen::/vehicle/waggon/m_wagen/mat/shared/allgemein.mtl", },
+									mesh = "msh/rad_lod0.msh",
+									name = "rad",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.24191, 0, 0.469196, 1, },
+								},
+								{ 
+									materials = { "mw_mwagen::/vehicle/waggon/m_wagen/mat/shared/allgemein.mtl", },
+									mesh = "msh/rad_lod0.msh",
+									name = "rad",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.24191, 0, 0.469196, 1, },
+								},
+							},
+							name = "bogie2",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -9.46909, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mw_mwagen::/vehicle/waggon/m_wagen/mat/bc4umg_54/innen.mtl", },
+							mesh = "msh/innen_lod0.msh",
+							name = "kupplung",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mw_mwagen::/vehicle/waggon/m_wagen/mat/shared/glas_alt.mtl", },
+							mesh = "msh/glas_lod0.msh",
+							name = "kupplung",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mw_mwagen::/vehicle/waggon/m_wagen/mat/shared/allgemein.mtl", },
+							mesh = "msh/kupplung_lod0.msh",
+							name = "kupplung",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mw_mwagen::/vehicle/waggon/m_wagen/mat/shared/allgemein.mtl", },
+							mesh = "msh/unterbau_neu_ohne_lod0.msh",
+							name = "neu_unterbau",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/rumpf_rola_dbag.mtl", },
+							mesh = "msh/boden_neu_lod0.msh",
+							name = "neu_boden",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							animations = { 
+								close_all_doors = { 
+									forward = false,
+									params = { 
+										id = "ani/falt_1l.ani",
+									},
+									type = "FILE_REF",
+								},
+								close_doors_left = { 
+									forward = false,
+									params = { 
+										id = "ani/falt_1l.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_all_doors = { 
+									params = { 
+										id = "ani/falt_1l.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_doors_left = { 
+									params = { 
+										id = "ani/falt_1l.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							children = {
+								{ 
+									animations = { 
+										close_all_doors = { 
+											forward = false,
+											params = { 
+												id = "ani/tuer_1l.ani",
+											},
+											type = "FILE_REF",
+										},
+										close_doors_left = { 
+											forward = false,
+											params = { 
+												id = "ani/tuer_1l.ani",
+											},
+											type = "FILE_REF",
+										},
+										open_all_doors = { 
+											params = { 
+												id = "ani/tuer_1l.ani",
+											},
+											type = "FILE_REF",
+										},
+										open_doors_left = { 
+											params = { 
+												id = "ani/tuer_1l.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									children = {
+										{ 
+											animations = { 
+												close_all_doors = { 
+													forward = false,
+													params = { 
+														id = "ani/tritt_innen_1l.ani",
+													},
+													type = "FILE_REF",
+												},
+												close_doors_left = { 
+													forward = false,
+													params = { 
+														id = "ani/tritt_innen_1l.ani",
+													},
+													type = "FILE_REF",
+												},
+												open_all_doors = { 
+													params = { 
+														id = "ani/tritt_innen_1l.ani",
+													},
+													type = "FILE_REF",
+												},
+												open_doors_left = { 
+													params = { 
+														id = "ani/tritt_innen_1l.ani",
+													},
+													type = "FILE_REF",
+												},
+											},
+											materials = { "mat/rumpf_rola_dbag.mtl", },
+											mesh = "msh/tritt_innen_1l_lod0.msh",
+											name = "tritt_innen_1l",
+											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.016, -0.0406, -0.109, 1, },
+										},
+									},
+									materials = { "mat/rumpf_rola_dbag.mtl", "mw_mwagen::/vehicle/waggon/m_wagen/mat/shared/glas_alt.mtl", },
+									mesh = "msh/tuer_1l_lod0.msh",
+									name = "tuer_1l",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.282614, 0.0568213, 0.15286, 1, },
+								},
+							},
+							materials = { "mat/rumpf_rola_dbag.mtl", },
+							mesh = "msh/falt_1l_lod0.msh",
+							name = "falt_1l",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 12.7677, 1.32776, 1.24469, 1, },
+						},
+						{ 
+							animations = { 
+								close_all_doors = { 
+									forward = false,
+									params = { 
+										id = "ani/klapptritt_1l.ani",
+									},
+									type = "FILE_REF",
+								},
+								close_doors_left = { 
+									forward = false,
+									params = { 
+										id = "ani/klapptritt_1l.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_all_doors = { 
+									params = { 
+										id = "ani/klapptritt_1l.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_doors_left = { 
+									params = { 
+										id = "ani/klapptritt_1l.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/rumpf_rola_dbag.mtl", },
+							mesh = "msh/klapptritt_1l_lod0.msh",
+							name = "klapptritt_1l",
+							transf = { 0.996164, -0.051582, 0.0706816, 0, -0.0484265, 0.347794, 0.93632, 0, -0.0728798, -0.936151, 0.343962, 0, 12.2594, 1.30238, 0.578512, 1, },
+						},
+						{ 
+							animations = { 
+								close_all_doors = { 
+									forward = false,
+									params = { 
+										id = "ani/falt_1r.ani",
+									},
+									type = "FILE_REF",
+								},
+								close_doors_right = { 
+									forward = false,
+									params = { 
+										id = "ani/falt_1r.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_all_doors = { 
+									params = { 
+										id = "ani/falt_1r.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_doors_right = { 
+									params = { 
+										id = "ani/falt_1r.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							children = {
+								{ 
+									animations = { 
+										close_all_doors = { 
+											forward = false,
+											params = { 
+												id = "ani/tuer_1r.ani",
+											},
+											type = "FILE_REF",
+										},
+										close_doors_right = { 
+											forward = false,
+											params = { 
+												id = "ani/tuer_1r.ani",
+											},
+											type = "FILE_REF",
+										},
+										open_all_doors = { 
+											params = { 
+												id = "ani/tuer_1r.ani",
+											},
+											type = "FILE_REF",
+										},
+										open_doors_right = { 
+											params = { 
+												id = "ani/tuer_1r.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									children = {
+										{ 
+											animations = { 
+												close_all_doors = { 
+													forward = false,
+													params = { 
+														id = "ani/tritt_innen_1r.ani",
+													},
+													type = "FILE_REF",
+												},
+												close_doors_right = { 
+													forward = false,
+													params = { 
+														id = "ani/tritt_innen_1r.ani",
+													},
+													type = "FILE_REF",
+												},
+												open_all_doors = { 
+													params = { 
+														id = "ani/tritt_innen_1r.ani",
+													},
+													type = "FILE_REF",
+												},
+												open_doors_right = { 
+													params = { 
+														id = "ani/tritt_innen_1r.ani",
+													},
+													type = "FILE_REF",
+												},
+											},
+											materials = { "mat/rumpf_rola_dbag.mtl", },
+											mesh = "msh/tritt_innen_1r_lod0.msh",
+											name = "tritt_innen_1r",
+											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.016, 0.0406, -0.109, 1, },
+										},
+									},
+									materials = { "mat/rumpf_rola_dbag.mtl", "mw_mwagen::/vehicle/waggon/m_wagen/mat/shared/glas_alt.mtl", },
+									mesh = "msh/tuer_1r_lod0.msh",
+									name = "tuer_1r",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.282614, -0.0568213, 0.15286, 1, },
+								},
+							},
+							materials = { "mat/rumpf_rola_dbag.mtl", },
+							mesh = "msh/falt_1r_lod0.msh",
+							name = "falt_1r",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 12.7677, -1.32776, 1.24469, 1, },
+						},
+						{ 
+							animations = { 
+								close_all_doors = { 
+									forward = false,
+									params = { 
+										id = "ani/klapptritt_1r.ani",
+									},
+									type = "FILE_REF",
+								},
+								close_doors_right = { 
+									forward = false,
+									params = { 
+										id = "ani/klapptritt_1r.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_all_doors = { 
+									params = { 
+										id = "ani/klapptritt_1r.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_doors_right = { 
+									params = { 
+										id = "ani/klapptritt_1r.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/rumpf_rola_dbag.mtl", },
+							mesh = "msh/klapptritt_1r_lod0.msh",
+							name = "klapptritt_1r",
+							transf = { 0.997234, 0.0372204, 0.0643274, 0, 0.0474978, 0.346527, -0.936836, 0, -0.0571606, 0.937301, 0.343801, 0, 12.2594, -1.30238, 0.578512, 1, },
+						},
+						{ 
+							animations = { 
+								close_all_doors = { 
+									forward = false,
+									params = { 
+										id = "ani/falt_2l.ani",
+									},
+									type = "FILE_REF",
+								},
+								close_doors_left = { 
+									forward = false,
+									params = { 
+										id = "ani/falt_2l.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_all_doors = { 
+									params = { 
+										id = "ani/falt_2l.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_doors_left = { 
+									params = { 
+										id = "ani/falt_2l.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							children = {
+								{ 
+									animations = { 
+										close_all_doors = { 
+											forward = false,
+											params = { 
+												id = "ani/tuer_2l.ani",
+											},
+											type = "FILE_REF",
+										},
+										close_doors_left = { 
+											forward = false,
+											params = { 
+												id = "ani/tuer_2l.ani",
+											},
+											type = "FILE_REF",
+										},
+										open_all_doors = { 
+											params = { 
+												id = "ani/tuer_2l.ani",
+											},
+											type = "FILE_REF",
+										},
+										open_doors_left = { 
+											params = { 
+												id = "ani/tuer_2l.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									children = {
+										{ 
+											animations = { 
+												close_all_doors = { 
+													forward = false,
+													params = { 
+														id = "ani/tritt_innen_2l.ani",
+													},
+													type = "FILE_REF",
+												},
+												close_doors_left = { 
+													forward = false,
+													params = { 
+														id = "ani/tritt_innen_2l.ani",
+													},
+													type = "FILE_REF",
+												},
+												open_all_doors = { 
+													params = { 
+														id = "ani/tritt_innen_2l.ani",
+													},
+													type = "FILE_REF",
+												},
+												open_doors_left = { 
+													params = { 
+														id = "ani/tritt_innen_2l.ani",
+													},
+													type = "FILE_REF",
+												},
+											},
+											materials = { "mat/rumpf_rola_dbag.mtl", },
+											mesh = "msh/tritt_innen_2l_lod0.msh",
+											name = "tritt_innen_2l",
+											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.016, -0.0406, -0.109, 1, },
+										},
+									},
+									materials = { "mat/rumpf_rola_dbag.mtl", "mw_mwagen::/vehicle/waggon/m_wagen/mat/shared/glas_alt.mtl", },
+									mesh = "msh/tuer_2l_lod0.msh",
+									name = "tuer_2l",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.282614, 0.0568213, 0.15286, 1, },
+								},
+							},
+							materials = { "mat/rumpf_rola_dbag.mtl", },
+							mesh = "msh/falt_2l_lod0.msh",
+							name = "falt_2l",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -12.7677, 1.32776, 1.24469, 1, },
+						},
+						{ 
+							animations = { 
+								close_all_doors = { 
+									forward = false,
+									params = { 
+										id = "ani/klapptritt_2l.ani",
+									},
+									type = "FILE_REF",
+								},
+								close_doors_left = { 
+									forward = false,
+									params = { 
+										id = "ani/klapptritt_2l.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_all_doors = { 
+									params = { 
+										id = "ani/klapptritt_2l.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_doors_left = { 
+									params = { 
+										id = "ani/klapptritt_2l.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/rumpf_rola_dbag.mtl", },
+							mesh = "msh/klapptritt_2l_lod0.msh",
+							name = "klapptritt_2l",
+							transf = { 0.996786, 0.0487739, -0.0635499, 0, 0.0417297, 0.361029, 0.931621, 0, 0.0683821, -0.931278, 0.357833, 0, -12.2594, 1.30238, 0.578512, 1, },
+						},
+						{ 
+							animations = { 
+								close_all_doors = { 
+									forward = false,
+									params = { 
+										id = "ani/falt_2r.ani",
+									},
+									type = "FILE_REF",
+								},
+								close_doors_right = { 
+									forward = false,
+									params = { 
+										id = "ani/falt_2r.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_all_doors = { 
+									params = { 
+										id = "ani/falt_2r.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_doors_right = { 
+									params = { 
+										id = "ani/falt_2r.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							children = {
+								{ 
+									animations = { 
+										close_all_doors = { 
+											forward = false,
+											params = { 
+												id = "ani/tuer_2r.ani",
+											},
+											type = "FILE_REF",
+										},
+										close_doors_right = { 
+											forward = false,
+											params = { 
+												id = "ani/tuer_2r.ani",
+											},
+											type = "FILE_REF",
+										},
+										open_all_doors = { 
+											params = { 
+												id = "ani/tuer_2r.ani",
+											},
+											type = "FILE_REF",
+										},
+										open_doors_right = { 
+											params = { 
+												id = "ani/tuer_2r.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									children = {
+										{ 
+											animations = { 
+												close_all_doors = { 
+													forward = false,
+													params = { 
+														id = "ani/tritt_innen_2r.ani",
+													},
+													type = "FILE_REF",
+												},
+												close_doors_right = { 
+													forward = false,
+													params = { 
+														id = "ani/tritt_innen_2r.ani",
+													},
+													type = "FILE_REF",
+												},
+												open_all_doors = { 
+													params = { 
+														id = "ani/tritt_innen_2r.ani",
+													},
+													type = "FILE_REF",
+												},
+												open_doors_right = { 
+													params = { 
+														id = "ani/tritt_innen_2r.ani",
+													},
+													type = "FILE_REF",
+												},
+											},
+											materials = { "mat/rumpf_rola_dbag.mtl", },
+											mesh = "msh/tritt_innen_2r_lod0.msh",
+											name = "tritt_innen_2r",
+											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.016, 0.0406, -0.109, 1, },
+										},
+									},
+									materials = { "mat/rumpf_rola_dbag.mtl", "mw_mwagen::/vehicle/waggon/m_wagen/mat/shared/glas_alt.mtl", },
+									mesh = "msh/tuer_2r_lod0.msh",
+									name = "tuer_2r",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.282614, -0.0568213, 0.15286, 1, },
+								},
+							},
+							materials = { "mat/rumpf_rola_dbag.mtl", },
+							mesh = "msh/falt_2r_lod0.msh",
+							name = "falt_2r",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -12.7677, -1.32776, 1.24469, 1, },
+						},
+						{ 
+							animations = { 
+								close_all_doors = { 
+									forward = false,
+									params = { 
+										id = "ani/klapptritt_2r.ani",
+									},
+									type = "FILE_REF",
+								},
+								close_doors_right = { 
+									forward = false,
+									params = { 
+										id = "ani/klapptritt_2r.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_all_doors = { 
+									params = { 
+										id = "ani/klapptritt_2r.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_doors_right = { 
+									params = { 
+										id = "ani/klapptritt_2r.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/rumpf_rola_dbag.mtl", },
+							mesh = "msh/klapptritt_2r_lod0.msh",
+							name = "klapptritt_2r",
+							transf = { 0.997139, -0.041184, -0.0633801, 0, -0.0471769, 0.316032, -0.947575, 0, 0.0590551, 0.947854, 0.313185, 0, -12.2594, -1.30238, 0.578512, 1, },
+						},
+						{ 
+							materials = { "mat/rumpf_rola_dbag.mtl", },
+							mesh = "msh/zwischentuer_eckig_lod0.msh",
+							name = "zwischentuer_eckig",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/rumpf_rola_dbag.mtl", },
+							mesh = "msh/licht_unten_lod0.msh",
+							name = "licht_oben",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							animations = { 
+								back_forward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_forward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								back_forward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_forward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mw_mwagen::/vehicle/waggon/m_wagen/mat/shared/red_lights.mtl", },
+							mesh = "msh/zugschlussleuchte_lod0.msh",
+							name = "licht_oben",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 35,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/rumpf_rola_dbag.mtl", },
+							mesh = "msh/rumpf_neu_lod1.msh",
+							name = "neu_rumpf",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mw_mwagen::/vehicle/waggon/m_wagen/mat/shared/allgemein.mtl", },
+							mesh = "msh/uebergang_lod1.msh",
+							name = "ubergang",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/rumpf_rola_dbag.mtl", },
+							mesh = "msh/details_neu_lod1.msh",
+							name = "details",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "mw_mwagen::/vehicle/waggon/m_wagen/mat/shared/allgemein.mtl", },
+									mesh = "msh/bogie_lod1.msh",
+									name = "bogie",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mw_mwagen::/vehicle/waggon/m_wagen/mat/shared/allgemein.mtl", },
+									mesh = "msh/rad_lod1.msh",
+									name = "rad",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.24191, 0, 0.469196, 1, },
+								},
+								{ 
+									materials = { "mw_mwagen::/vehicle/waggon/m_wagen/mat/shared/allgemein.mtl", },
+									mesh = "msh/rad_lod1.msh",
+									name = "rad",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.24191, 0, 0.469196, 1, },
+								},
+							},
+							name = "bogie1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 9.46909, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "mw_mwagen::/vehicle/waggon/m_wagen/mat/shared/allgemein.mtl", },
+									mesh = "msh/bogie_lod1.msh",
+									name = "bogie",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mw_mwagen::/vehicle/waggon/m_wagen/mat/shared/allgemein.mtl", },
+									mesh = "msh/rad_lod1.msh",
+									name = "rad",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.24191, 0, 0.469196, 1, },
+								},
+								{ 
+									materials = { "mw_mwagen::/vehicle/waggon/m_wagen/mat/shared/allgemein.mtl", },
+									mesh = "msh/rad_lod1.msh",
+									name = "rad",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.24191, 0, 0.469196, 1, },
+								},
+							},
+							name = "bogie2",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -9.46909, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mw_mwagen::/vehicle/waggon/m_wagen/mat/a4um_54/innen.mtl", },
+							mesh = "msh/innen_lod1.msh",
+							name = "kupplung",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mw_mwagen::/vehicle/waggon/m_wagen/mat/shared/glas_alt.mtl", },
+							mesh = "msh/glas_lod0.msh",
+							name = "kupplung",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mw_mwagen::/vehicle/waggon/m_wagen/mat/shared/allgemein.mtl", },
+							mesh = "msh/kupplung_lod1.msh",
+							name = "kupplung",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mw_mwagen::/vehicle/waggon/m_wagen/mat/shared/allgemein.mtl", },
+							mesh = "msh/unterbau_neu_ohne_lod1.msh",
+							name = "neu_unterbau",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/rumpf_rola_dbag.mtl", },
+							mesh = "msh/boden_neu_lod1.msh",
+							name = "neu_boden",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							animations = { 
+								close_all_doors = { 
+									forward = false,
+									params = { 
+										id = "ani/falt_1l.ani",
+									},
+									type = "FILE_REF",
+								},
+								close_doors_left = { 
+									forward = false,
+									params = { 
+										id = "ani/falt_1l.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_all_doors = { 
+									params = { 
+										id = "ani/falt_1l.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_doors_left = { 
+									params = { 
+										id = "ani/falt_1l.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							children = {
+								{ 
+									animations = { 
+										close_all_doors = { 
+											forward = false,
+											params = { 
+												id = "ani/tuer_1l.ani",
+											},
+											type = "FILE_REF",
+										},
+										close_doors_left = { 
+											forward = false,
+											params = { 
+												id = "ani/tuer_1l.ani",
+											},
+											type = "FILE_REF",
+										},
+										open_all_doors = { 
+											params = { 
+												id = "ani/tuer_1l.ani",
+											},
+											type = "FILE_REF",
+										},
+										open_doors_left = { 
+											params = { 
+												id = "ani/tuer_1l.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									children = {
+										{ 
+											animations = { 
+												close_all_doors = { 
+													forward = false,
+													params = { 
+														id = "ani/tritt_innen_1l.ani",
+													},
+													type = "FILE_REF",
+												},
+												close_doors_left = { 
+													forward = false,
+													params = { 
+														id = "ani/tritt_innen_1l.ani",
+													},
+													type = "FILE_REF",
+												},
+												open_all_doors = { 
+													params = { 
+														id = "ani/tritt_innen_1l.ani",
+													},
+													type = "FILE_REF",
+												},
+												open_doors_left = { 
+													params = { 
+														id = "ani/tritt_innen_1l.ani",
+													},
+													type = "FILE_REF",
+												},
+											},
+											materials = { "mat/rumpf_rola_dbag.mtl", },
+											mesh = "msh/tritt_innen_1l_lod1.msh",
+											name = "tritt_innen_1l",
+											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.016, -0.0406, -0.109, 1, },
+										},
+									},
+									materials = { "mat/rumpf_rola_dbag.mtl", "mw_mwagen::/vehicle/waggon/m_wagen/mat/shared/glas_alt.mtl", },
+									mesh = "msh/tuer_1l_lod1.msh",
+									name = "tuer_1l",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.282614, 0.0568213, 0.15286, 1, },
+								},
+							},
+							materials = { "mat/rumpf_rola_dbag.mtl", },
+							mesh = "msh/falt_1l_lod1.msh",
+							name = "falt_1l",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 12.7677, 1.32776, 1.24469, 1, },
+						},
+						{ 
+							animations = { 
+								close_all_doors = { 
+									forward = false,
+									params = { 
+										id = "ani/klapptritt_1l.ani",
+									},
+									type = "FILE_REF",
+								},
+								close_doors_left = { 
+									forward = false,
+									params = { 
+										id = "ani/klapptritt_1l.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_all_doors = { 
+									params = { 
+										id = "ani/klapptritt_1l.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_doors_left = { 
+									params = { 
+										id = "ani/klapptritt_1l.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/rumpf_rola_dbag.mtl", },
+							mesh = "msh/klapptritt_1l_lod1.msh",
+							name = "klapptritt_1l",
+							transf = { 0.996164, -0.051582, 0.0706816, 0, -0.0484265, 0.347794, 0.93632, 0, -0.0728798, -0.936151, 0.343962, 0, 12.2594, 1.30238, 0.578512, 1, },
+						},
+						{ 
+							animations = { 
+								close_all_doors = { 
+									forward = false,
+									params = { 
+										id = "ani/falt_1r.ani",
+									},
+									type = "FILE_REF",
+								},
+								close_doors_right = { 
+									forward = false,
+									params = { 
+										id = "ani/falt_1r.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_all_doors = { 
+									params = { 
+										id = "ani/falt_1r.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_doors_right = { 
+									params = { 
+										id = "ani/falt_1r.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							children = {
+								{ 
+									animations = { 
+										close_all_doors = { 
+											forward = false,
+											params = { 
+												id = "ani/tuer_1r.ani",
+											},
+											type = "FILE_REF",
+										},
+										close_doors_right = { 
+											forward = false,
+											params = { 
+												id = "ani/tuer_1r.ani",
+											},
+											type = "FILE_REF",
+										},
+										open_all_doors = { 
+											params = { 
+												id = "ani/tuer_1r.ani",
+											},
+											type = "FILE_REF",
+										},
+										open_doors_right = { 
+											params = { 
+												id = "ani/tuer_1r.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									children = {
+										{ 
+											animations = { 
+												close_all_doors = { 
+													forward = false,
+													params = { 
+														id = "ani/tritt_innen_1r.ani",
+													},
+													type = "FILE_REF",
+												},
+												close_doors_right = { 
+													forward = false,
+													params = { 
+														id = "ani/tritt_innen_1r.ani",
+													},
+													type = "FILE_REF",
+												},
+												open_all_doors = { 
+													params = { 
+														id = "ani/tritt_innen_1r.ani",
+													},
+													type = "FILE_REF",
+												},
+												open_doors_right = { 
+													params = { 
+														id = "ani/tritt_innen_1r.ani",
+													},
+													type = "FILE_REF",
+												},
+											},
+											materials = { "mat/rumpf_rola_dbag.mtl", },
+											mesh = "msh/tritt_innen_1r_lod1.msh",
+											name = "tritt_innen_1r",
+											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.016, 0.0406, -0.109, 1, },
+										},
+									},
+									materials = { "mat/rumpf_rola_dbag.mtl", "mw_mwagen::/vehicle/waggon/m_wagen/mat/shared/glas_alt.mtl", },
+									mesh = "msh/tuer_1r_lod1.msh",
+									name = "tuer_1r",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.282614, -0.0568213, 0.15286, 1, },
+								},
+							},
+							materials = { "mat/rumpf_rola_dbag.mtl", },
+							mesh = "msh/falt_1r_lod1.msh",
+							name = "falt_1r",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 12.7677, -1.32776, 1.24469, 1, },
+						},
+						{ 
+							animations = { 
+								close_all_doors = { 
+									forward = false,
+									params = { 
+										id = "ani/klapptritt_1r.ani",
+									},
+									type = "FILE_REF",
+								},
+								close_doors_right = { 
+									forward = false,
+									params = { 
+										id = "ani/klapptritt_1r.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_all_doors = { 
+									params = { 
+										id = "ani/klapptritt_1r.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_doors_right = { 
+									params = { 
+										id = "ani/klapptritt_1r.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/rumpf_rola_dbag.mtl", },
+							mesh = "msh/klapptritt_1r_lod1.msh",
+							name = "klapptritt_1r",
+							transf = { 0.997234, 0.0372204, 0.0643274, 0, 0.0474978, 0.346527, -0.936836, 0, -0.0571606, 0.937301, 0.343801, 0, 12.2594, -1.30238, 0.578512, 1, },
+						},
+						{ 
+							animations = { 
+								close_all_doors = { 
+									forward = false,
+									params = { 
+										id = "ani/falt_2l.ani",
+									},
+									type = "FILE_REF",
+								},
+								close_doors_left = { 
+									forward = false,
+									params = { 
+										id = "ani/falt_2l.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_all_doors = { 
+									params = { 
+										id = "ani/falt_2l.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_doors_left = { 
+									params = { 
+										id = "ani/falt_2l.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							children = {
+								{ 
+									animations = { 
+										close_all_doors = { 
+											forward = false,
+											params = { 
+												id = "ani/tuer_2l.ani",
+											},
+											type = "FILE_REF",
+										},
+										close_doors_left = { 
+											forward = false,
+											params = { 
+												id = "ani/tuer_2l.ani",
+											},
+											type = "FILE_REF",
+										},
+										open_all_doors = { 
+											params = { 
+												id = "ani/tuer_2l.ani",
+											},
+											type = "FILE_REF",
+										},
+										open_doors_left = { 
+											params = { 
+												id = "ani/tuer_2l.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									children = {
+										{ 
+											animations = { 
+												close_all_doors = { 
+													forward = false,
+													params = { 
+														id = "ani/tritt_innen_2l.ani",
+													},
+													type = "FILE_REF",
+												},
+												close_doors_left = { 
+													forward = false,
+													params = { 
+														id = "ani/tritt_innen_2l.ani",
+													},
+													type = "FILE_REF",
+												},
+												open_all_doors = { 
+													params = { 
+														id = "ani/tritt_innen_2l.ani",
+													},
+													type = "FILE_REF",
+												},
+												open_doors_left = { 
+													params = { 
+														id = "ani/tritt_innen_2l.ani",
+													},
+													type = "FILE_REF",
+												},
+											},
+											materials = { "mat/rumpf_rola_dbag.mtl", },
+											mesh = "msh/tritt_innen_2l_lod1.msh",
+											name = "tritt_innen_2l",
+											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.016, -0.0406, -0.109, 1, },
+										},
+									},
+									materials = { "mat/rumpf_rola_dbag.mtl", "mw_mwagen::/vehicle/waggon/m_wagen/mat/shared/glas_alt.mtl", },
+									mesh = "msh/tuer_2l_lod1.msh",
+									name = "tuer_2l",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.282614, 0.0568213, 0.15286, 1, },
+								},
+							},
+							materials = { "mat/rumpf_rola_dbag.mtl", },
+							mesh = "msh/falt_2l_lod1.msh",
+							name = "falt_2l",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -12.7677, 1.32776, 1.24469, 1, },
+						},
+						{ 
+							animations = { 
+								close_all_doors = { 
+									forward = false,
+									params = { 
+										id = "ani/klapptritt_2l.ani",
+									},
+									type = "FILE_REF",
+								},
+								close_doors_left = { 
+									forward = false,
+									params = { 
+										id = "ani/klapptritt_2l.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_all_doors = { 
+									params = { 
+										id = "ani/klapptritt_2l.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_doors_left = { 
+									params = { 
+										id = "ani/klapptritt_2l.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/rumpf_rola_dbag.mtl", },
+							mesh = "msh/klapptritt_2l_lod1.msh",
+							name = "klapptritt_2l",
+							transf = { 0.996786, 0.0487739, -0.0635499, 0, 0.0417297, 0.361029, 0.931621, 0, 0.0683821, -0.931278, 0.357833, 0, -12.2594, 1.30238, 0.578512, 1, },
+						},
+						{ 
+							animations = { 
+								close_all_doors = { 
+									forward = false,
+									params = { 
+										id = "ani/falt_2r.ani",
+									},
+									type = "FILE_REF",
+								},
+								close_doors_right = { 
+									forward = false,
+									params = { 
+										id = "ani/falt_2r.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_all_doors = { 
+									params = { 
+										id = "ani/falt_2r.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_doors_right = { 
+									params = { 
+										id = "ani/falt_2r.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							children = {
+								{ 
+									animations = { 
+										close_all_doors = { 
+											forward = false,
+											params = { 
+												id = "ani/tuer_2r.ani",
+											},
+											type = "FILE_REF",
+										},
+										close_doors_right = { 
+											forward = false,
+											params = { 
+												id = "ani/tuer_2r.ani",
+											},
+											type = "FILE_REF",
+										},
+										open_all_doors = { 
+											params = { 
+												id = "ani/tuer_2r.ani",
+											},
+											type = "FILE_REF",
+										},
+										open_doors_right = { 
+											params = { 
+												id = "ani/tuer_2r.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									children = {
+										{ 
+											animations = { 
+												close_all_doors = { 
+													forward = false,
+													params = { 
+														id = "ani/tritt_innen_2r.ani",
+													},
+													type = "FILE_REF",
+												},
+												close_doors_right = { 
+													forward = false,
+													params = { 
+														id = "ani/tritt_innen_2r.ani",
+													},
+													type = "FILE_REF",
+												},
+												open_all_doors = { 
+													params = { 
+														id = "ani/tritt_innen_2r.ani",
+													},
+													type = "FILE_REF",
+												},
+												open_doors_right = { 
+													params = { 
+														id = "ani/tritt_innen_2r.ani",
+													},
+													type = "FILE_REF",
+												},
+											},
+											materials = { "mat/rumpf_rola_dbag.mtl", },
+											mesh = "msh/tritt_innen_2r_lod1.msh",
+											name = "tritt_innen_2r",
+											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.016, 0.0406, -0.109, 1, },
+										},
+									},
+									materials = { "mat/rumpf_rola_dbag.mtl", "mw_mwagen::/vehicle/waggon/m_wagen/mat/shared/glas_alt.mtl", },
+									mesh = "msh/tuer_2r_lod1.msh",
+									name = "tuer_2r",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.282614, -0.0568213, 0.15286, 1, },
+								},
+							},
+							materials = { "mat/rumpf_rola_dbag.mtl", },
+							mesh = "msh/falt_2r_lod1.msh",
+							name = "falt_2r",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -12.7677, -1.32776, 1.24469, 1, },
+						},
+						{ 
+							animations = { 
+								close_all_doors = { 
+									forward = false,
+									params = { 
+										id = "ani/klapptritt_2r.ani",
+									},
+									type = "FILE_REF",
+								},
+								close_doors_right = { 
+									forward = false,
+									params = { 
+										id = "ani/klapptritt_2r.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_all_doors = { 
+									params = { 
+										id = "ani/klapptritt_2r.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_doors_right = { 
+									params = { 
+										id = "ani/klapptritt_2r.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/rumpf_rola_dbag.mtl", },
+							mesh = "msh/klapptritt_2r_lod1.msh",
+							name = "klapptritt_2r",
+							transf = { 0.997139, -0.041184, -0.0633801, 0, -0.0471769, 0.316032, -0.947575, 0, 0.0590551, 0.947854, 0.313185, 0, -12.2594, -1.30238, 0.578512, 1, },
+						},
+						{ 
+							materials = { "mat/rumpf_rola_dbag.mtl", },
+							mesh = "msh/zwischentuer_eckig_lod1.msh",
+							name = "zwischentuer_eckig",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/rumpf_rola_dbag.mtl", },
+							mesh = "msh/licht_unten_lod1.msh",
+							name = "licht_oben",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							animations = { 
+								back_forward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_forward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								back_forward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_forward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mw_mwagen::/vehicle/waggon/m_wagen/mat/shared/red_lights.mtl", },
+							mesh = "msh/zugschlussleuchte_lod0.msh",
+							name = "licht_oben",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 35,
+				visibleTo = 100,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/rumpf_rola_dbag.mtl", },
+							mesh = "msh/rumpf_neu_lod2.msh",
+							name = "neu_rumpf",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mw_mwagen::/vehicle/waggon/m_wagen/mat/shared/allgemein.mtl", },
+							mesh = "msh/uebergang_lod2.msh",
+							name = "ubergang",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/rumpf_rola_dbag.mtl", },
+							mesh = "msh/details_neu_lod2.msh",
+							name = "details",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "mw_mwagen::/vehicle/waggon/m_wagen/mat/shared/allgemein.mtl", },
+									mesh = "msh/bogie_lod2.msh",
+									name = "bogie",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mw_mwagen::/vehicle/waggon/m_wagen/mat/shared/allgemein.mtl", },
+									mesh = "msh/rad_lod2.msh",
+									name = "rad",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.24191, 0, 0.469196, 1, },
+								},
+								{ 
+									materials = { "mw_mwagen::/vehicle/waggon/m_wagen/mat/shared/allgemein.mtl", },
+									mesh = "msh/rad_lod2.msh",
+									name = "rad",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.24191, 0, 0.469196, 1, },
+								},
+							},
+							name = "bogie1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 9.46909, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "mw_mwagen::/vehicle/waggon/m_wagen/mat/shared/allgemein.mtl", },
+									mesh = "msh/bogie_lod2.msh",
+									name = "bogie",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mw_mwagen::/vehicle/waggon/m_wagen/mat/shared/allgemein.mtl", },
+									mesh = "msh/rad_lod2.msh",
+									name = "rad",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.24191, 0, 0.469196, 1, },
+								},
+								{ 
+									materials = { "mw_mwagen::/vehicle/waggon/m_wagen/mat/shared/allgemein.mtl", },
+									mesh = "msh/rad_lod2.msh",
+									name = "rad",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.24191, 0, 0.469196, 1, },
+								},
+							},
+							name = "bogie2",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -9.46909, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mw_mwagen::/vehicle/waggon/m_wagen/mat/a4um_54/innen.mtl", },
+							mesh = "msh/innen_lod2.msh",
+							name = "kupplung",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mw_mwagen::/vehicle/waggon/m_wagen/mat/shared/glas_alt.mtl", },
+							mesh = "msh/glas_lod0.msh",
+							name = "kupplung",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mw_mwagen::/vehicle/waggon/m_wagen/mat/shared/allgemein.mtl", },
+							mesh = "msh/kupplung_lod2.msh",
+							name = "kupplung",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mw_mwagen::/vehicle/waggon/m_wagen/mat/shared/allgemein.mtl", },
+							mesh = "msh/unterbau_neu_ohne_lod2.msh",
+							name = "neu_unterbau",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/rumpf_rola_dbag.mtl", },
+							mesh = "msh/boden_neu_lod2.msh",
+							name = "neu_boden",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							animations = { 
+								close_all_doors = { 
+									forward = false,
+									params = { 
+										id = "ani/falt_1l.ani",
+									},
+									type = "FILE_REF",
+								},
+								close_doors_left = { 
+									forward = false,
+									params = { 
+										id = "ani/falt_1l.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_all_doors = { 
+									params = { 
+										id = "ani/falt_1l.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_doors_left = { 
+									params = { 
+										id = "ani/falt_1l.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							children = {
+								{ 
+									animations = { 
+										close_all_doors = { 
+											forward = false,
+											params = { 
+												id = "ani/tuer_1l.ani",
+											},
+											type = "FILE_REF",
+										},
+										close_doors_left = { 
+											forward = false,
+											params = { 
+												id = "ani/tuer_1l.ani",
+											},
+											type = "FILE_REF",
+										},
+										open_all_doors = { 
+											params = { 
+												id = "ani/tuer_1l.ani",
+											},
+											type = "FILE_REF",
+										},
+										open_doors_left = { 
+											params = { 
+												id = "ani/tuer_1l.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									children = {
+										{ 
+											animations = { 
+												close_all_doors = { 
+													forward = false,
+													params = { 
+														id = "ani/tritt_innen_1l.ani",
+													},
+													type = "FILE_REF",
+												},
+												close_doors_left = { 
+													forward = false,
+													params = { 
+														id = "ani/tritt_innen_1l.ani",
+													},
+													type = "FILE_REF",
+												},
+												open_all_doors = { 
+													params = { 
+														id = "ani/tritt_innen_1l.ani",
+													},
+													type = "FILE_REF",
+												},
+												open_doors_left = { 
+													params = { 
+														id = "ani/tritt_innen_1l.ani",
+													},
+													type = "FILE_REF",
+												},
+											},
+											materials = { "mat/rumpf_rola_dbag.mtl", },
+											mesh = "msh/tritt_innen_1l_lod2.msh",
+											name = "tritt_innen_1l",
+											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.016, -0.0406, -0.109, 1, },
+										},
+									},
+									materials = { "mat/rumpf_rola_dbag.mtl", "mw_mwagen::/vehicle/waggon/m_wagen/mat/shared/glas_alt.mtl", },
+									mesh = "msh/tuer_1l_lod2.msh",
+									name = "tuer_1l",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.282614, 0.0568213, 0.15286, 1, },
+								},
+							},
+							materials = { "mat/rumpf_rola_dbag.mtl", },
+							mesh = "msh/falt_1l_lod2.msh",
+							name = "falt_1l",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 12.7677, 1.32776, 1.24469, 1, },
+						},
+						{ 
+							animations = { 
+								close_all_doors = { 
+									forward = false,
+									params = { 
+										id = "ani/klapptritt_1l.ani",
+									},
+									type = "FILE_REF",
+								},
+								close_doors_left = { 
+									forward = false,
+									params = { 
+										id = "ani/klapptritt_1l.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_all_doors = { 
+									params = { 
+										id = "ani/klapptritt_1l.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_doors_left = { 
+									params = { 
+										id = "ani/klapptritt_1l.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/rumpf_rola_dbag.mtl", },
+							mesh = "msh/klapptritt_1l_lod2.msh",
+							name = "klapptritt_1l",
+							transf = { 0.996164, -0.051582, 0.0706816, 0, -0.0484265, 0.347794, 0.93632, 0, -0.0728798, -0.936151, 0.343962, 0, 12.2594, 1.30238, 0.578512, 1, },
+						},
+						{ 
+							animations = { 
+								close_all_doors = { 
+									forward = false,
+									params = { 
+										id = "ani/falt_1r.ani",
+									},
+									type = "FILE_REF",
+								},
+								close_doors_right = { 
+									forward = false,
+									params = { 
+										id = "ani/falt_1r.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_all_doors = { 
+									params = { 
+										id = "ani/falt_1r.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_doors_right = { 
+									params = { 
+										id = "ani/falt_1r.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							children = {
+								{ 
+									animations = { 
+										close_all_doors = { 
+											forward = false,
+											params = { 
+												id = "ani/tuer_1r.ani",
+											},
+											type = "FILE_REF",
+										},
+										close_doors_right = { 
+											forward = false,
+											params = { 
+												id = "ani/tuer_1r.ani",
+											},
+											type = "FILE_REF",
+										},
+										open_all_doors = { 
+											params = { 
+												id = "ani/tuer_1r.ani",
+											},
+											type = "FILE_REF",
+										},
+										open_doors_right = { 
+											params = { 
+												id = "ani/tuer_1r.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									children = {
+										{ 
+											animations = { 
+												close_all_doors = { 
+													forward = false,
+													params = { 
+														id = "ani/tritt_innen_1r.ani",
+													},
+													type = "FILE_REF",
+												},
+												close_doors_right = { 
+													forward = false,
+													params = { 
+														id = "ani/tritt_innen_1r.ani",
+													},
+													type = "FILE_REF",
+												},
+												open_all_doors = { 
+													params = { 
+														id = "ani/tritt_innen_1r.ani",
+													},
+													type = "FILE_REF",
+												},
+												open_doors_right = { 
+													params = { 
+														id = "ani/tritt_innen_1r.ani",
+													},
+													type = "FILE_REF",
+												},
+											},
+											materials = { "mat/rumpf_rola_dbag.mtl", },
+											mesh = "msh/tritt_innen_1r_lod2.msh",
+											name = "tritt_innen_1r",
+											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.016, 0.0406, -0.109, 1, },
+										},
+									},
+									materials = { "mat/rumpf_rola_dbag.mtl", "mw_mwagen::/vehicle/waggon/m_wagen/mat/shared/glas_alt.mtl", },
+									mesh = "msh/tuer_1r_lod2.msh",
+									name = "tuer_1r",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.282614, -0.0568213, 0.15286, 1, },
+								},
+							},
+							materials = { "mat/rumpf_rola_dbag.mtl", },
+							mesh = "msh/falt_1r_lod2.msh",
+							name = "falt_1r",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 12.7677, -1.32776, 1.24469, 1, },
+						},
+						{ 
+							animations = { 
+								close_all_doors = { 
+									forward = false,
+									params = { 
+										id = "ani/klapptritt_1r.ani",
+									},
+									type = "FILE_REF",
+								},
+								close_doors_right = { 
+									forward = false,
+									params = { 
+										id = "ani/klapptritt_1r.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_all_doors = { 
+									params = { 
+										id = "ani/klapptritt_1r.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_doors_right = { 
+									params = { 
+										id = "ani/klapptritt_1r.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/rumpf_rola_dbag.mtl", },
+							mesh = "msh/klapptritt_1r_lod2.msh",
+							name = "klapptritt_1r",
+							transf = { 0.997234, 0.0372204, 0.0643274, 0, 0.0474978, 0.346527, -0.936836, 0, -0.0571606, 0.937301, 0.343801, 0, 12.2594, -1.30238, 0.578512, 1, },
+						},
+						{ 
+							animations = { 
+								close_all_doors = { 
+									forward = false,
+									params = { 
+										id = "ani/falt_2l.ani",
+									},
+									type = "FILE_REF",
+								},
+								close_doors_left = { 
+									forward = false,
+									params = { 
+										id = "ani/falt_2l.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_all_doors = { 
+									params = { 
+										id = "ani/falt_2l.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_doors_left = { 
+									params = { 
+										id = "ani/falt_2l.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							children = {
+								{ 
+									animations = { 
+										close_all_doors = { 
+											forward = false,
+											params = { 
+												id = "ani/tuer_2l.ani",
+											},
+											type = "FILE_REF",
+										},
+										close_doors_left = { 
+											forward = false,
+											params = { 
+												id = "ani/tuer_2l.ani",
+											},
+											type = "FILE_REF",
+										},
+										open_all_doors = { 
+											params = { 
+												id = "ani/tuer_2l.ani",
+											},
+											type = "FILE_REF",
+										},
+										open_doors_left = { 
+											params = { 
+												id = "ani/tuer_2l.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									children = {
+										{ 
+											animations = { 
+												close_all_doors = { 
+													forward = false,
+													params = { 
+														id = "ani/tritt_innen_2l.ani",
+													},
+													type = "FILE_REF",
+												},
+												close_doors_left = { 
+													forward = false,
+													params = { 
+														id = "ani/tritt_innen_2l.ani",
+													},
+													type = "FILE_REF",
+												},
+												open_all_doors = { 
+													params = { 
+														id = "ani/tritt_innen_2l.ani",
+													},
+													type = "FILE_REF",
+												},
+												open_doors_left = { 
+													params = { 
+														id = "ani/tritt_innen_2l.ani",
+													},
+													type = "FILE_REF",
+												},
+											},
+											materials = { "mat/rumpf_rola_dbag.mtl", },
+											mesh = "msh/tritt_innen_2l_lod2.msh",
+											name = "tritt_innen_2l",
+											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.016, -0.0406, -0.109, 1, },
+										},
+									},
+									materials = { "mat/rumpf_rola_dbag.mtl", "mw_mwagen::/vehicle/waggon/m_wagen/mat/shared/glas_alt.mtl", },
+									mesh = "msh/tuer_2l_lod2.msh",
+									name = "tuer_2l",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.282614, 0.0568213, 0.15286, 1, },
+								},
+							},
+							materials = { "mat/rumpf_rola_dbag.mtl", },
+							mesh = "msh/falt_2l_lod2.msh",
+							name = "falt_2l",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -12.7677, 1.32776, 1.24469, 1, },
+						},
+						{ 
+							animations = { 
+								close_all_doors = { 
+									forward = false,
+									params = { 
+										id = "ani/klapptritt_2l.ani",
+									},
+									type = "FILE_REF",
+								},
+								close_doors_left = { 
+									forward = false,
+									params = { 
+										id = "ani/klapptritt_2l.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_all_doors = { 
+									params = { 
+										id = "ani/klapptritt_2l.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_doors_left = { 
+									params = { 
+										id = "ani/klapptritt_2l.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/rumpf_rola_dbag.mtl", },
+							mesh = "msh/klapptritt_2l_lod2.msh",
+							name = "klapptritt_2l",
+							transf = { 0.996786, 0.0487739, -0.0635499, 0, 0.0417297, 0.361029, 0.931621, 0, 0.0683821, -0.931278, 0.357833, 0, -12.2594, 1.30238, 0.578512, 1, },
+						},
+						{ 
+							animations = { 
+								close_all_doors = { 
+									forward = false,
+									params = { 
+										id = "ani/falt_2r.ani",
+									},
+									type = "FILE_REF",
+								},
+								close_doors_right = { 
+									forward = false,
+									params = { 
+										id = "ani/falt_2r.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_all_doors = { 
+									params = { 
+										id = "ani/falt_2r.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_doors_right = { 
+									params = { 
+										id = "ani/falt_2r.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							children = {
+								{ 
+									animations = { 
+										close_all_doors = { 
+											forward = false,
+											params = { 
+												id = "ani/tuer_2r.ani",
+											},
+											type = "FILE_REF",
+										},
+										close_doors_right = { 
+											forward = false,
+											params = { 
+												id = "ani/tuer_2r.ani",
+											},
+											type = "FILE_REF",
+										},
+										open_all_doors = { 
+											params = { 
+												id = "ani/tuer_2r.ani",
+											},
+											type = "FILE_REF",
+										},
+										open_doors_right = { 
+											params = { 
+												id = "ani/tuer_2r.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									children = {
+										{ 
+											animations = { 
+												close_all_doors = { 
+													forward = false,
+													params = { 
+														id = "ani/tritt_innen_2r.ani",
+													},
+													type = "FILE_REF",
+												},
+												close_doors_right = { 
+													forward = false,
+													params = { 
+														id = "ani/tritt_innen_2r.ani",
+													},
+													type = "FILE_REF",
+												},
+												open_all_doors = { 
+													params = { 
+														id = "ani/tritt_innen_2r.ani",
+													},
+													type = "FILE_REF",
+												},
+												open_doors_right = { 
+													params = { 
+														id = "ani/tritt_innen_2r.ani",
+													},
+													type = "FILE_REF",
+												},
+											},
+											materials = { "mat/rumpf_rola_dbag.mtl", },
+											mesh = "msh/tritt_innen_2r_lod2.msh",
+											name = "tritt_innen_2r",
+											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.016, 0.0406, -0.109, 1, },
+										},
+									},
+									materials = { "mat/rumpf_rola_dbag.mtl", "mw_mwagen::/vehicle/waggon/m_wagen/mat/shared/glas_alt.mtl", },
+									mesh = "msh/tuer_2r_lod2.msh",
+									name = "tuer_2r",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.282614, -0.0568213, 0.15286, 1, },
+								},
+							},
+							materials = { "mat/rumpf_rola_dbag.mtl", },
+							mesh = "msh/falt_2r_lod2.msh",
+							name = "falt_2r",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -12.7677, -1.32776, 1.24469, 1, },
+						},
+						{ 
+							animations = { 
+								close_all_doors = { 
+									forward = false,
+									params = { 
+										id = "ani/klapptritt_2r.ani",
+									},
+									type = "FILE_REF",
+								},
+								close_doors_right = { 
+									forward = false,
+									params = { 
+										id = "ani/klapptritt_2r.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_all_doors = { 
+									params = { 
+										id = "ani/klapptritt_2r.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_doors_right = { 
+									params = { 
+										id = "ani/klapptritt_2r.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/rumpf_rola_dbag.mtl", },
+							mesh = "msh/klapptritt_2r_lod2.msh",
+							name = "klapptritt_2r",
+							transf = { 0.997139, -0.041184, -0.0633801, 0, -0.0471769, 0.316032, -0.947575, 0, 0.0590551, 0.947854, 0.313185, 0, -12.2594, -1.30238, 0.578512, 1, },
+						},
+						{ 
+							materials = { "mat/rumpf_rola_dbag.mtl", },
+							mesh = "msh/zwischentuer_eckig_lod2.msh",
+							name = "zwischentuer_eckig",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/rumpf_rola_dbag.mtl", },
+							mesh = "msh/licht_unten_lod2.msh",
+							name = "licht_oben",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 100,
+				visibleTo = 300,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/rumpf_rola_dbag.mtl", },
+							mesh = "msh/rumpf_neu_lod3.msh",
+							name = "neu_rumpf",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/rumpf_rola_dbag.mtl", },
+							mesh = "msh/details_neu_lod3.msh",
+							name = "details",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "mw_mwagen::/vehicle/waggon/m_wagen/mat/shared/allgemein.mtl", },
+									mesh = "msh/bogie_lod3.msh",
+									name = "bogie",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mw_mwagen::/vehicle/waggon/m_wagen/mat/shared/allgemein.mtl", },
+									mesh = "msh/rad_lod3.msh",
+									name = "rad",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.24191, 0, 0.469196, 1, },
+								},
+								{ 
+									materials = { "mw_mwagen::/vehicle/waggon/m_wagen/mat/shared/allgemein.mtl", },
+									mesh = "msh/rad_lod3.msh",
+									name = "rad",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.24191, 0, 0.469196, 1, },
+								},
+							},
+							name = "bogie1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 9.46909, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "mw_mwagen::/vehicle/waggon/m_wagen/mat/shared/allgemein.mtl", },
+									mesh = "msh/bogie_lod3.msh",
+									name = "bogie",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mw_mwagen::/vehicle/waggon/m_wagen/mat/shared/allgemein.mtl", },
+									mesh = "msh/rad_lod3.msh",
+									name = "rad",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.24191, 0, 0.469196, 1, },
+								},
+								{ 
+									materials = { "mw_mwagen::/vehicle/waggon/m_wagen/mat/shared/allgemein.mtl", },
+									mesh = "msh/rad_lod3.msh",
+									name = "rad",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.24191, 0, 0.469196, 1, },
+								},
+							},
+							name = "bogie2",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -9.46909, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mw_mwagen::/vehicle/waggon/m_wagen/mat/shared/glas_alt.mtl", },
+							mesh = "msh/glas_lod0.msh",
+							name = "kupplung",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mw_mwagen::/vehicle/waggon/m_wagen/mat/shared/allgemein.mtl", },
+							mesh = "msh/unterbau_neu_ohne_lod3.msh",
+							name = "neu_unterbau",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/rumpf_rola_dbag.mtl", },
+							mesh = "msh/boden_neu_lod3.msh",
+							name = "neu_boden",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							animations = { 
+								close_all_doors = { 
+									forward = false,
+									params = { 
+										id = "ani/falt_1l.ani",
+									},
+									type = "FILE_REF",
+								},
+								close_doors_left = { 
+									forward = false,
+									params = { 
+										id = "ani/falt_1l.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_all_doors = { 
+									params = { 
+										id = "ani/falt_1l.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_doors_left = { 
+									params = { 
+										id = "ani/falt_1l.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							children = {
+								{ 
+									animations = { 
+										close_all_doors = { 
+											forward = false,
+											params = { 
+												id = "ani/tuer_1l.ani",
+											},
+											type = "FILE_REF",
+										},
+										close_doors_left = { 
+											forward = false,
+											params = { 
+												id = "ani/tuer_1l.ani",
+											},
+											type = "FILE_REF",
+										},
+										open_all_doors = { 
+											params = { 
+												id = "ani/tuer_1l.ani",
+											},
+											type = "FILE_REF",
+										},
+										open_doors_left = { 
+											params = { 
+												id = "ani/tuer_1l.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									children = {
+										{ 
+											animations = { 
+												close_all_doors = { 
+													forward = false,
+													params = { 
+														id = "ani/tritt_innen_1l.ani",
+													},
+													type = "FILE_REF",
+												},
+												close_doors_left = { 
+													forward = false,
+													params = { 
+														id = "ani/tritt_innen_1l.ani",
+													},
+													type = "FILE_REF",
+												},
+												open_all_doors = { 
+													params = { 
+														id = "ani/tritt_innen_1l.ani",
+													},
+													type = "FILE_REF",
+												},
+												open_doors_left = { 
+													params = { 
+														id = "ani/tritt_innen_1l.ani",
+													},
+													type = "FILE_REF",
+												},
+											},
+											materials = { "mat/rumpf_rola_dbag.mtl", },
+											mesh = "msh/tritt_innen_1l_lod3.msh",
+											name = "tritt_innen_1l",
+											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.016, -0.0406, -0.109, 1, },
+										},
+									},
+									materials = { "mat/rumpf_rola_dbag.mtl", "mw_mwagen::/vehicle/waggon/m_wagen/mat/shared/glas_alt.mtl", },
+									mesh = "msh/tuer_1l_lod3.msh",
+									name = "tuer_1l",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.282614, 0.0568213, 0.15286, 1, },
+								},
+							},
+							materials = { "mat/rumpf_rola_dbag.mtl", },
+							mesh = "msh/falt_1l_lod3.msh",
+							name = "falt_1l",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 12.7677, 1.32776, 1.24469, 1, },
+						},
+						{ 
+							animations = { 
+								close_all_doors = { 
+									forward = false,
+									params = { 
+										id = "ani/klapptritt_1l.ani",
+									},
+									type = "FILE_REF",
+								},
+								close_doors_left = { 
+									forward = false,
+									params = { 
+										id = "ani/klapptritt_1l.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_all_doors = { 
+									params = { 
+										id = "ani/klapptritt_1l.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_doors_left = { 
+									params = { 
+										id = "ani/klapptritt_1l.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/rumpf_rola_dbag.mtl", },
+							mesh = "msh/klapptritt_1l_lod3.msh",
+							name = "klapptritt_1l",
+							transf = { 0.996164, -0.051582, 0.0706816, 0, -0.0484265, 0.347794, 0.93632, 0, -0.0728798, -0.936151, 0.343962, 0, 12.2594, 1.30238, 0.578512, 1, },
+						},
+						{ 
+							animations = { 
+								close_all_doors = { 
+									forward = false,
+									params = { 
+										id = "ani/falt_1r.ani",
+									},
+									type = "FILE_REF",
+								},
+								close_doors_right = { 
+									forward = false,
+									params = { 
+										id = "ani/falt_1r.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_all_doors = { 
+									params = { 
+										id = "ani/falt_1r.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_doors_right = { 
+									params = { 
+										id = "ani/falt_1r.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							children = {
+								{ 
+									animations = { 
+										close_all_doors = { 
+											forward = false,
+											params = { 
+												id = "ani/tuer_1r.ani",
+											},
+											type = "FILE_REF",
+										},
+										close_doors_right = { 
+											forward = false,
+											params = { 
+												id = "ani/tuer_1r.ani",
+											},
+											type = "FILE_REF",
+										},
+										open_all_doors = { 
+											params = { 
+												id = "ani/tuer_1r.ani",
+											},
+											type = "FILE_REF",
+										},
+										open_doors_right = { 
+											params = { 
+												id = "ani/tuer_1r.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									children = {
+										{ 
+											animations = { 
+												close_all_doors = { 
+													forward = false,
+													params = { 
+														id = "ani/tritt_innen_1r.ani",
+													},
+													type = "FILE_REF",
+												},
+												close_doors_right = { 
+													forward = false,
+													params = { 
+														id = "ani/tritt_innen_1r.ani",
+													},
+													type = "FILE_REF",
+												},
+												open_all_doors = { 
+													params = { 
+														id = "ani/tritt_innen_1r.ani",
+													},
+													type = "FILE_REF",
+												},
+												open_doors_right = { 
+													params = { 
+														id = "ani/tritt_innen_1r.ani",
+													},
+													type = "FILE_REF",
+												},
+											},
+											materials = { "mat/rumpf_rola_dbag.mtl", },
+											mesh = "msh/tritt_innen_1r_lod3.msh",
+											name = "tritt_innen_1r",
+											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.016, 0.0406, -0.109, 1, },
+										},
+									},
+									materials = { "mat/rumpf_rola_dbag.mtl", "mw_mwagen::/vehicle/waggon/m_wagen/mat/shared/glas_alt.mtl", },
+									mesh = "msh/tuer_1r_lod3.msh",
+									name = "tuer_1r",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.282614, -0.0568213, 0.15286, 1, },
+								},
+							},
+							materials = { "mat/rumpf_rola_dbag.mtl", },
+							mesh = "msh/falt_1r_lod3.msh",
+							name = "falt_1r",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 12.7677, -1.32776, 1.24469, 1, },
+						},
+						{ 
+							animations = { 
+								close_all_doors = { 
+									forward = false,
+									params = { 
+										id = "ani/klapptritt_1r.ani",
+									},
+									type = "FILE_REF",
+								},
+								close_doors_right = { 
+									forward = false,
+									params = { 
+										id = "ani/klapptritt_1r.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_all_doors = { 
+									params = { 
+										id = "ani/klapptritt_1r.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_doors_right = { 
+									params = { 
+										id = "ani/klapptritt_1r.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/rumpf_rola_dbag.mtl", },
+							mesh = "msh/klapptritt_1r_lod3.msh",
+							name = "klapptritt_1r",
+							transf = { 0.997234, 0.0372204, 0.0643274, 0, 0.0474978, 0.346527, -0.936836, 0, -0.0571606, 0.937301, 0.343801, 0, 12.2594, -1.30238, 0.578512, 1, },
+						},
+						{ 
+							animations = { 
+								close_all_doors = { 
+									forward = false,
+									params = { 
+										id = "ani/falt_2l.ani",
+									},
+									type = "FILE_REF",
+								},
+								close_doors_left = { 
+									forward = false,
+									params = { 
+										id = "ani/falt_2l.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_all_doors = { 
+									params = { 
+										id = "ani/falt_2l.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_doors_left = { 
+									params = { 
+										id = "ani/falt_2l.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							children = {
+								{ 
+									animations = { 
+										close_all_doors = { 
+											forward = false,
+											params = { 
+												id = "ani/tuer_2l.ani",
+											},
+											type = "FILE_REF",
+										},
+										close_doors_left = { 
+											forward = false,
+											params = { 
+												id = "ani/tuer_2l.ani",
+											},
+											type = "FILE_REF",
+										},
+										open_all_doors = { 
+											params = { 
+												id = "ani/tuer_2l.ani",
+											},
+											type = "FILE_REF",
+										},
+										open_doors_left = { 
+											params = { 
+												id = "ani/tuer_2l.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									children = {
+										{ 
+											animations = { 
+												close_all_doors = { 
+													forward = false,
+													params = { 
+														id = "ani/tritt_innen_2l.ani",
+													},
+													type = "FILE_REF",
+												},
+												close_doors_left = { 
+													forward = false,
+													params = { 
+														id = "ani/tritt_innen_2l.ani",
+													},
+													type = "FILE_REF",
+												},
+												open_all_doors = { 
+													params = { 
+														id = "ani/tritt_innen_2l.ani",
+													},
+													type = "FILE_REF",
+												},
+												open_doors_left = { 
+													params = { 
+														id = "ani/tritt_innen_2l.ani",
+													},
+													type = "FILE_REF",
+												},
+											},
+											materials = { "mat/rumpf_rola_dbag.mtl", },
+											mesh = "msh/tritt_innen_2l_lod3.msh",
+											name = "tritt_innen_2l",
+											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.016, -0.0406, -0.109, 1, },
+										},
+									},
+									materials = { "mat/rumpf_rola_dbag.mtl", "mw_mwagen::/vehicle/waggon/m_wagen/mat/shared/glas_alt.mtl", },
+									mesh = "msh/tuer_2l_lod3.msh",
+									name = "tuer_2l",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.282614, 0.0568213, 0.15286, 1, },
+								},
+							},
+							materials = { "mat/rumpf_rola_dbag.mtl", },
+							mesh = "msh/falt_2l_lod3.msh",
+							name = "falt_2l",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -12.7677, 1.32776, 1.24469, 1, },
+						},
+						{ 
+							animations = { 
+								close_all_doors = { 
+									forward = false,
+									params = { 
+										id = "ani/klapptritt_2l.ani",
+									},
+									type = "FILE_REF",
+								},
+								close_doors_left = { 
+									forward = false,
+									params = { 
+										id = "ani/klapptritt_2l.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_all_doors = { 
+									params = { 
+										id = "ani/klapptritt_2l.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_doors_left = { 
+									params = { 
+										id = "ani/klapptritt_2l.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/rumpf_rola_dbag.mtl", },
+							mesh = "msh/klapptritt_2l_lod3.msh",
+							name = "klapptritt_2l",
+							transf = { 0.996786, 0.0487739, -0.0635499, 0, 0.0417297, 0.361029, 0.931621, 0, 0.0683821, -0.931278, 0.357833, 0, -12.2594, 1.30238, 0.578512, 1, },
+						},
+						{ 
+							animations = { 
+								close_all_doors = { 
+									forward = false,
+									params = { 
+										id = "ani/falt_2r.ani",
+									},
+									type = "FILE_REF",
+								},
+								close_doors_right = { 
+									forward = false,
+									params = { 
+										id = "ani/falt_2r.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_all_doors = { 
+									params = { 
+										id = "ani/falt_2r.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_doors_right = { 
+									params = { 
+										id = "ani/falt_2r.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							children = {
+								{ 
+									animations = { 
+										close_all_doors = { 
+											forward = false,
+											params = { 
+												id = "ani/tuer_2r.ani",
+											},
+											type = "FILE_REF",
+										},
+										close_doors_right = { 
+											forward = false,
+											params = { 
+												id = "ani/tuer_2r.ani",
+											},
+											type = "FILE_REF",
+										},
+										open_all_doors = { 
+											params = { 
+												id = "ani/tuer_2r.ani",
+											},
+											type = "FILE_REF",
+										},
+										open_doors_right = { 
+											params = { 
+												id = "ani/tuer_2r.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									children = {
+										{ 
+											animations = { 
+												close_all_doors = { 
+													forward = false,
+													params = { 
+														id = "ani/tritt_innen_2r.ani",
+													},
+													type = "FILE_REF",
+												},
+												close_doors_right = { 
+													forward = false,
+													params = { 
+														id = "ani/tritt_innen_2r.ani",
+													},
+													type = "FILE_REF",
+												},
+												open_all_doors = { 
+													params = { 
+														id = "ani/tritt_innen_2r.ani",
+													},
+													type = "FILE_REF",
+												},
+												open_doors_right = { 
+													params = { 
+														id = "ani/tritt_innen_2r.ani",
+													},
+													type = "FILE_REF",
+												},
+											},
+											materials = { "mat/rumpf_rola_dbag.mtl", },
+											mesh = "msh/tritt_innen_2r_lod3.msh",
+											name = "tritt_innen_2r",
+											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.016, 0.0406, -0.109, 1, },
+										},
+									},
+									materials = { "mat/rumpf_rola_dbag.mtl", "mw_mwagen::/vehicle/waggon/m_wagen/mat/shared/glas_alt.mtl", },
+									mesh = "msh/tuer_2r_lod3.msh",
+									name = "tuer_2r",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.282614, -0.0568213, 0.15286, 1, },
+								},
+							},
+							materials = { "mat/rumpf_rola_dbag.mtl", },
+							mesh = "msh/falt_2r_lod3.msh",
+							name = "falt_2r",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -12.7677, -1.32776, 1.24469, 1, },
+						},
+						{ 
+							animations = { 
+								close_all_doors = { 
+									forward = false,
+									params = { 
+										id = "ani/klapptritt_2r.ani",
+									},
+									type = "FILE_REF",
+								},
+								close_doors_right = { 
+									forward = false,
+									params = { 
+										id = "ani/klapptritt_2r.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_all_doors = { 
+									params = { 
+										id = "ani/klapptritt_2r.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_doors_right = { 
+									params = { 
+										id = "ani/klapptritt_2r.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/rumpf_rola_dbag.mtl", },
+							mesh = "msh/klapptritt_2r_lod3.msh",
+							name = "klapptritt_2r",
+							transf = { 0.997139, -0.041184, -0.0633801, 0, -0.0471769, 0.316032, -0.947575, 0, 0.0590551, 0.947854, 0.313185, 0, -12.2594, -1.30238, 0.578512, 1, },
+						},
+						{ 
+							materials = { "mat/rumpf_rola_dbag.mtl", },
+							mesh = "msh/zwischentuer_eckig_lod3.msh",
+							name = "zwischentuer_eckig",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 300,
+				visibleTo = 1500,
+			},
+		},
+		metadata = { 
+			availability = { 
+				yearFrom = 1994,
+				yearTo = 2011,
+			},
+			cost = { 
+				price = -1,
+			},
+			description = { 
+				description = _("rola_begleitwagen_desc"),
+				name = _("bcm255"),
+			},
+			emissions = { 
+				noise = { 
+					idle = -1,
+					power = -1,
+					speed = -1,
+				},
+				pollution = { 
+					idle = -1,
+					power = -1,
+					speed = -1,
+				},
+			},
+			landVehicle = { 
+				brakeDeceleration = 2.5,
+				engines = { },
+				friction = 0.02,
+				topSpeed = 44.4444,
+				weightEmpty = 41200,
+				weightMaxPayload = 6000,
+			},
+			maintenance = { 
+				lifespan = 21915,
+				runningCosts = -1,
+			},
+			railVehicle = { 
+				config = { 
+					axles = { "rad", },
+					fakeBogies = { },
+				},
+			},
+			seatProvider = { 
+				crewModels = { },
+				drivingLicense = "RAIL",
+				seats = {
+					{ 
+						animation = "sitting",
+						group = "RootNode",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 10.1, -1, 1.27, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "RootNode",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 10.1, -0.45, 1.27, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "RootNode",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 10.1, 0.15, 1.27, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "RootNode",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 9, -1, 1.27, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "RootNode",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 9, -0.45, 1.27, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "RootNode",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 9, 0.15, 1.27, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "RootNode",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 8.3, -1, 1.27, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "RootNode",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 8.3, -0.45, 1.27, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "RootNode",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 8.3, 0.15, 1.27, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "RootNode",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 7.2, -1, 1.27, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "RootNode",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 7.2, -0.45, 1.27, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "RootNode",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 7.2, 0.15, 1.27, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "RootNode",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 6.6, -1, 1.27, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "RootNode",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 6.6, -0.45, 1.27, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "RootNode",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 6.6, 0.15, 1.27, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "RootNode",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5.5, -1, 1.27, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "RootNode",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5.5, -0.45, 1.27, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "RootNode",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5.5, 0.15, 1.27, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "RootNode",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 4.9, -1, 1.27, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "RootNode",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 4.9, -0.45, 1.27, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "RootNode",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 4.9, 0.15, 1.27, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "RootNode",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.8, -1, 1.27, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "RootNode",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.8, -0.45, 1.27, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "RootNode",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.8, 0.15, 1.27, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "RootNode",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 3.1, -1, 1.27, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "RootNode",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 3.1, -0.45, 1.27, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "RootNode",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 3.1, 0.15, 1.27, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "RootNode",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2, -1, 1.27, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "RootNode",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2, -0.45, 1.27, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "RootNode",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2, 0.15, 1.27, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "RootNode",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 1.4, -1, 1.27, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "RootNode",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 1.4, -0.45, 1.27, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "RootNode",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 1.4, 0.15, 1.27, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "RootNode",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.35, -1, 1.27, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "RootNode",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.35, -0.45, 1.27, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "RootNode",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.35, 0.15, 1.27, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "RootNode",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -0.3, -1, 1.27, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "RootNode",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -0.3, -0.45, 1.27, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "RootNode",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -0.3, 0.15, 1.27, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "RootNode",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.35, -1, 1.27, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "RootNode",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.35, -0.45, 1.27, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "RootNode",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.35, 0.15, 1.27, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "RootNode",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -2, -1, 1.27, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "RootNode",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -2, -0.45, 1.27, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "RootNode",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -2, 0.15, 1.27, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "RootNode",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.1, -1, 1.27, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "RootNode",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.1, -0.45, 1.27, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "RootNode",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.1, 0.15, 1.27, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "RootNode",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -3.75, -1, 1.27, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "RootNode",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -3.75, -0.45, 1.27, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "RootNode",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -3.75, 0.15, 1.27, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "RootNode",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.85, -1, 1.27, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "RootNode",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.85, -0.45, 1.27, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "RootNode",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.85, 0.15, 1.27, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "RootNode",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -5.55, -1, 1.27, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "RootNode",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -5.55, -0.45, 1.27, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "RootNode",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -5.55, 0.15, 1.27, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "RootNode",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.65, -1, 1.27, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "RootNode",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.65, -0.45, 1.27, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "RootNode",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.65, 0.15, 1.27, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "RootNode",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -7.25, -1, 1.27, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "RootNode",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -7.25, -0.45, 1.27, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "RootNode",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -7.25, 0.15, 1.27, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "RootNode",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -8.35, -1, 1.27, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "RootNode",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -8.35, -0.45, 1.27, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "RootNode",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -8.35, 0.15, 1.27, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "RootNode",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -9, -1, 1.27, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "RootNode",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -9, -0.45, 1.27, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "RootNode",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -9, 0.15, 1.27, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "RootNode",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -10.1, -1, 1.27, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "RootNode",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -10.1, -0.45, 1.27, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "RootNode",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -10.05, 0.15, 1.27, 1, },
+					},
+				},
+			},
+			soundConfig = { 
+				soundSet = { 
+					name = "/UIC-X",
+				},
+			},
+			transformatorConfig = { 
+				skipFromLod = 1,
+				transformator = { 
+					name = "::/vehicle/train/shared/default_train.trf",
+				},
+			},
+			transportVehicle = { 
+				arrivalDelay = 2083,
+				carrier = "RAIL",
+				compartments = {
+					{ 
+						loadConfigs = {
+							{ 
+								cargoEntry = { 
+									capacity = 72,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/passengers/passengers.cargo", },
+									},
+									loadIndicator = "",
+									seats = { },
+								},
+								toHide = { },
+							},
+						},
+					},
+				},
+				departureDelay = 2083,
+				engineTransportModes = { },
+				filterTags = { "default", },
+				groupFileName = "/vehicle/waggon/rola/menu_rola.mdl",
+				loadSpeed = 4,
+				transportModes = { "TRAIN", "ELECTRIC_TRAIN", },
+			},
+		},
+		version = 2,
+	}
+end

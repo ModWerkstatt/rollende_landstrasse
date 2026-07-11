@@ -1,0 +1,22 @@
+{
+    "name": "RoRo \"Rolling Road\" (Saadkms)",
+    "summary": "A low-sided freight car for transporting trucks. It comes in various paint schemes.",
+    "description": "The Rolling Road (RoRo) is a transport system for accompanied combined transport by rail. It is a train in which complete lorries or articulated lorries are transported by rail. The short-coupled low-floor wagons with small wheel diameters used for this purpose have continuous lanes running along the entire train. During the journey, the drivers are accommodated in additionally attached escort wagons (seating or couchette wagons)",
+    "localization" : {
+        "de": {
+            "name": "Rollende Landstraße RoLa (Saadkms)",
+            "summary": "Ein niedriger Güterwagen für den Transport von LKW. Es sind verschiedene Lackierungen enthalten.",
+            "description": "Die Rollende Landstraße (kurz RoLa) ist ein Transportsystem für den begleiteten kombinierten Verkehr auf der Schiene. Es ist ein Zug bei dem komplette Lastwagen bzw. Sattelzüge per Bahn befördert werden. Die dazu verwendeten kurzgekuppelten Niederflurwagen mit kleinen Raddurchmessern haben durchgängig über den ganzen Zug hinweglaufende Fahrspuren. Die Fahrer sind während der Fahrt in zusätzlich angehängten Begleitwagen (Sitz- oder Liegewagen) untergebracht."
+        }
+    },
+    "authors": [
+        {
+            "name": "ModWerkstatt",
+            "role": "CREATOR"
+        }
+    ],
+    "tags": [
+        "Wagon"
+    ],
+    "url": "https://modwerkstatt.com/downloads/tpf3/rollende-landstrasse"
+}

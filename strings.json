@@ -1,0 +1,92 @@
+{
+  "en": {
+        "menu_rola": "RoRo \"Rolling Road\"",
+		
+		"fake": "Fake - ",
+	
+		"fake_sdgnss_t5": "Activate fake versions?",
+		"tooltip_fake": "Should the fake versions be available in the game?",
+	
+        "saadkms_back_db": "Saadkms 690 DB (back)",
+		"saadkms_back_dbag": "Saadkms 690 DB AG (back)",
+		"saadkms_back_oebb_oekombi": "Saadkms 690 ÖBB Ökombi (back)",
+		"saadkms_back_oebb": "Saadkms 690 ÖBB (back)",
+		"saadkms_back_ralpin": "Saadkms 690 RAlpin (back)",
+		"saadkms_back_hupac": "Saadkms 690 Hupac (back)",
+		"saadkms_back_desc": "The rear end is fixed, the front and rear end are variable. To be used as a wagon at the end of the RoMo, if something is still coupled at the rear.",
+		"saadkms_front_db": "Saadkms 690 DB (front)",
+        "saadkms_front_dbag": "Saadkms 690 DB AG (front)",
+        "saadkms_front_oebb_oekombi": "Saadkms 690 ÖBB Ökombi (front)",
+        "saadkms_front_oebb": "Saadkms 690 ÖBB (front)",
+        "saadkms_front_ralpin": "Saadkms 690 RAlpin (front)",
+        "saadkms_front_hupac": "Saadkms 690 Hupac (front)",
+		"saadkms_front_desc": "Front end is fixed, rear end and rear end are variable. To be used as start of the RoLa behind locomotive or other wagons.",
+		"saadkms_db": "Saadkms 690 DB",
+        "saadkms_dbag": "Saadkms 690 DB AG",
+        "saadkms_oebb_oekombi": "Saadkms 690 ÖBB Ökombi",
+        "saadkms_oebb": "Saadkms 690 ÖBB",
+        "saadkms_ralpin": "Saadkms 690 RAlpin",
+        "saadkms_hupac": "Saadkms 690 Hupac",
+		"saadkms_desc": "Train end and head ends variable at the front and rear. To be used as a middle section or optionally as a train end if no more wagons follow.",
+
+        "bcm243": "Bcm 243 DB",
+        "bcm255": "Bcm 255 DB AG",
+        "bcmz_oebb": "Bcmz ÖBB Ökombi",
+        "rola_begleitwagen_desc": "The trucks stand on the flat cars of the RoRo while the drivers are accommodated in an escort car. These are couchette cars and offer space to rest and recover during the journey.",
+	  	  
+		"offset x-axis": "Offset x-axis",
+		"vehicle": "Vehicle",
+		"asset": "Asset",
+		"height": "Height",
+		"ground": "Ground",
+		"rail": "Rail",
+		"height_tooltip": "Where should be the origin of the height?",
+		"jrm_param_offsetx_tooltip": "Offset in x direction"
+		
+  },
+  "de": {
+        "menu_rola": "Rollende Landstraße",
+	
+		"fake": "Fake -",	
+	
+		"fake_sdgnss_t5": "Fake-Versionen aktivieren?",
+		"tooltip_fake": "Sollen die Fake-Versionen verfügbar sein im Spiel?",
+	
+        "saadkms_back_db": "Saadkms 690 DB (hinten)",
+		"saadkms_back_dbag": "Saadkms 690 DB AG (hinten)",
+		"saadkms_back_oebb_oekombi": "Saadkms 690 ÖBB Ökombi (hinten)",
+		"saadkms_back_oebb": "Saadkms 690 ÖBB (hinten)",
+		"saadkms_back_ralpin": "Saadkms 690 RAlpin (hinten)",
+		"saadkms_back_hupac": "Saadkms 690 Hupac (hinten)",
+		"saadkms_back_desc": "Kopfstück hinten ist fest montiert, Zugschluß und Kopfstück vorne variabel. Als Wagen am Ende der RoLa einzusetzen, wenn hinten dran noch etwas gekuppelt wird.",
+		"saadkms_front_db": "Saadkms 690 DB (vorne)",
+        "saadkms_front_dbag": "Saadkms 690 DB AG (vorne)",
+        "saadkms_front_oebb_oekombi": "Saadkms 690 ÖBB Ökombi (vorne)",
+        "saadkms_front_oebb": "Saadkms 690 ÖBB (vorne)",
+        "saadkms_front_ralpin": "Saadkms 690 RAlpin (vorne)",
+        "saadkms_front_hupac": "Saadkms 690 Hupac (vorne)",
+		"saadkms_front_desc": "Kopfstück vorne ist fest montiert, Zugschluß und Kopfstück hinten variabel. Als Start der RoLa einzusetzen hinter Lokomotive oder anderen Wagen.",
+		"saadkms_db": "Saadkms 690 DB",
+        "saadkms_dbag": "Saadkms 690 DB AG",
+        "saadkms_oebb_oekombi": "Saadkms 690 ÖBB Ökombi",
+        "saadkms_oebb": "Saadkms 690 ÖBB",
+        "saadkms_ralpin": "Saadkms 690 RAlpin",
+        "saadkms_hupac": "Saadkms 690 Hupac",
+		"saadkms_desc": "Zugschluß und Kopfstücke vorne und hinten variabel. Als Mittelstück oder wahlweise als Zugschluß einzusetzen, wenn keine weiteren Wagen mehr folgen.",
+
+        "bcm243": "Bcm 243 DB",
+        "bcm255": "Bcm 255 DB AG",
+        "bcmz_oebb": "Bcmz ÖBB Ökombi",
+        "rola_begleitwagen_desc": "Auf den Flachwagen der RoLa stehen die LKW während die Fahrer in einem Begleitwagen untergebracht werden. Dies sind Liegewagen und bieten Raum zum Ausruhen und Erholung während der Fahrt.",
+		
+		"offset x-axis": "Offset x-Achse",
+		"vehicle": "Fahrzeug",
+		"asset": "Asset",
+		"height": "Höhe",
+		"ground": "Boden",
+		"rail": "Schiene",
+		"height_tooltip": "Wonach soll die Höhe gesetzt werden?",
+		"jrm_param_offsetx_tooltip": "Verschiebung in x-Richtung"
+	  
+    }
+}
