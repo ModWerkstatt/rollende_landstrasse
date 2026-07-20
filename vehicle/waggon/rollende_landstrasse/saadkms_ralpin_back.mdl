@@ -18,7 +18,7 @@ return {
 						{ 
 							materials = { "mat/rumpf_ralpin.mtl", },
 							mesh = "msh/rumpf_lod0.msh",
-							name = "rumpf",
+							name = "body",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
@@ -26,35 +26,35 @@ return {
 								{ 
 									materials = { "mat/rumpf_ralpin.mtl", },
 									mesh = "msh/rad_lod0.msh",
-									name = "rad",
+									name = "a1",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.1091, 0, 0, 1, },
 								},
 								{ 
 									materials = { "mat/rumpf_ralpin.mtl", },
 									mesh = "msh/rad_lod0.msh",
-									name = "rad",
+									name = "a2",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.3405, 0, 0, 1, },
 								},
 								{ 
 									materials = { "mat/rumpf_ralpin.mtl", },
 									mesh = "msh/rad_lod0.msh",
-									name = "rad",
+									name = "a3",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.3405, 0, 0, 1, },
 								},
 								{ 
 									materials = { "mat/rumpf_ralpin.mtl", },
 									mesh = "msh/rad_lod0.msh",
-									name = "rad",
+									name = "a4",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.1091, 0, 0, 1, },
 								},
 								{ 
 									materials = { "mat/rumpf_ralpin.mtl", },
 									mesh = "msh/bogie_lod0.msh",
-									name = "bogie11",
+									name = "drehgestell1",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 								},
 							},
-							name = "bogie2",
+							name = "bogie",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.92588, 0, 0.189166, 1, },
 						},
 						{ 
@@ -62,31 +62,31 @@ return {
 								{ 
 									materials = { "mat/rumpf_ralpin.mtl", },
 									mesh = "msh/rad_lod0.msh",
-									name = "rad",
+									name = "a5",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.1091, 0, 0, 1, },
 								},
 								{ 
 									materials = { "mat/rumpf_ralpin.mtl", },
 									mesh = "msh/rad_lod0.msh",
-									name = "rad",
+									name = "a6",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.3405, 0, 0, 1, },
 								},
 								{ 
 									materials = { "mat/rumpf_ralpin.mtl", },
 									mesh = "msh/rad_lod0.msh",
-									name = "rad",
+									name = "a7",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.3405, 0, 0, 1, },
 								},
 								{ 
 									materials = { "mat/rumpf_ralpin.mtl", },
 									mesh = "msh/rad_lod0.msh",
-									name = "rad",
+									name = "a8",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.1091, 0, 0, 1, },
 								},
 								{ 
 									materials = { "mat/rumpf_ralpin.mtl", },
 									mesh = "msh/bogie_lod0.msh",
-									name = "bogie11",
+									name = "drehgestell2",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 								},
 							},
@@ -112,13 +112,13 @@ return {
 							},
 							materials = { "mat/rumpf_ralpin.mtl", },
 							mesh = "msh/kopfstueck_lod0.msh",
-							name = "tuer_vorne",
+							name = "kopfstueck_vorne",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
 							materials = { "mat/rumpf_ralpin.mtl", },
 							mesh = "msh/kopfstueck_lod0.msh",
-							name = "back_forward_part",
+							name = "kopfstueck_hinten",
 							transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
@@ -140,7 +140,7 @@ return {
 							},
 							materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_de.mtl", },
 							mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_de_lod0.msh",
-							name = "zugschluss_de_front",
+							name = "zugschluss",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -9.81, 0.712, 1.2, 1, },
 						},
 						{ 
@@ -162,7 +162,7 @@ return {
 							},
 							materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_de.mtl", },
 							mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_de_lod0.msh",
-							name = "zugschluss_de_front",
+							name = "zugschluss2",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -9.81, -0.712, 1.2, 1, },
 						},
 					},
@@ -178,7 +178,7 @@ return {
 						{ 
 							materials = { "mat/rumpf_ralpin.mtl", },
 							mesh = "msh/rumpf_lod1.msh",
-							name = "rumpf",
+							name = "body",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
@@ -186,29 +186,29 @@ return {
 								{ 
 									materials = { "mat/rumpf_ralpin.mtl", },
 									mesh = "msh/rad_lod1.msh",
-									name = "rad",
+									name = "a1",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.1091, 0, 0, 1, },
 								},
 								{ 
 									materials = { "mat/rumpf_ralpin.mtl", },
 									mesh = "msh/rad_lod1.msh",
-									name = "rad",
+									name = "a2",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.3405, 0, 0, 1, },
 								},
 								{ 
 									materials = { "mat/rumpf_ralpin.mtl", },
 									mesh = "msh/rad_lod1.msh",
-									name = "rad",
+									name = "a3",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.3405, 0, 0, 1, },
 								},
 								{ 
 									materials = { "mat/rumpf_ralpin.mtl", },
 									mesh = "msh/rad_lod1.msh",
-									name = "rad",
+									name = "a4",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.1091, 0, 0, 1, },
 								},
 							},
-							name = "bogie2",
+							name = "bogie",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.92588, 0, 0.189166, 1, },
 						},
 						{ 
@@ -216,25 +216,25 @@ return {
 								{ 
 									materials = { "mat/rumpf_ralpin.mtl", },
 									mesh = "msh/rad_lod1.msh",
-									name = "rad",
+									name = "a5",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.1091, 0, 0, 1, },
 								},
 								{ 
 									materials = { "mat/rumpf_ralpin.mtl", },
 									mesh = "msh/rad_lod1.msh",
-									name = "rad",
+									name = "a6",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.3405, 0, 0, 1, },
 								},
 								{ 
 									materials = { "mat/rumpf_ralpin.mtl", },
 									mesh = "msh/rad_lod1.msh",
-									name = "rad",
+									name = "a7",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.3405, 0, 0, 1, },
 								},
 								{ 
 									materials = { "mat/rumpf_ralpin.mtl", },
 									mesh = "msh/rad_lod1.msh",
-									name = "rad",
+									name = "a8",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.1091, 0, 0, 1, },
 								},
 							},
@@ -260,13 +260,13 @@ return {
 							},
 							materials = { "mat/rumpf_ralpin.mtl", },
 							mesh = "msh/kopfstueck_lod1.msh",
-							name = "tuer_vorne",
+							name = "kopfstueck_vorne",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
 							materials = { "mat/rumpf_ralpin.mtl", },
 							mesh = "msh/kopfstueck_lod1.msh",
-							name = "tuer_hinten",
+							name = "kopfstueck_hinten",
 							transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 					},
@@ -282,68 +282,8 @@ return {
 						{ 
 							materials = { "mat/rumpf_ralpin.mtl", },
 							mesh = "msh/rumpf_lod2.msh",
-							name = "rumpf",
+							name = "body",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							children = {
-								{ 
-									materials = { "mat/rumpf_ralpin.mtl", },
-									mesh = "msh/rad_lod2.msh",
-									name = "rad",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.1091, 0, 0, 1, },
-								},
-								{ 
-									materials = { "mat/rumpf_ralpin.mtl", },
-									mesh = "msh/rad_lod2.msh",
-									name = "rad",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.3405, 0, 0, 1, },
-								},
-								{ 
-									materials = { "mat/rumpf_ralpin.mtl", },
-									mesh = "msh/rad_lod2.msh",
-									name = "rad",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.3405, 0, 0, 1, },
-								},
-								{ 
-									materials = { "mat/rumpf_ralpin.mtl", },
-									mesh = "msh/rad_lod2.msh",
-									name = "rad",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.1091, 0, 0, 1, },
-								},
-							},
-							name = "bogie2",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.92588, 0, 0.189166, 1, },
-						},
-						{ 
-							children = {
-								{ 
-									materials = { "mat/rumpf_ralpin.mtl", },
-									mesh = "msh/rad_lod2.msh",
-									name = "rad",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.1091, 0, 0, 1, },
-								},
-								{ 
-									materials = { "mat/rumpf_ralpin.mtl", },
-									mesh = "msh/rad_lod2.msh",
-									name = "rad",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.3405, 0, 0, 1, },
-								},
-								{ 
-									materials = { "mat/rumpf_ralpin.mtl", },
-									mesh = "msh/rad_lod2.msh",
-									name = "rad",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.3405, 0, 0, 1, },
-								},
-								{ 
-									materials = { "mat/rumpf_ralpin.mtl", },
-									mesh = "msh/rad_lod2.msh",
-									name = "rad",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.1091, 0, 0, 1, },
-								},
-							},
-							name = "bogie2",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.92588, 0, 0.189166, 1, },
 						},
 						{ 
 							animations = { 
@@ -364,13 +304,13 @@ return {
 							},
 							materials = { "mat/rumpf_ralpin.mtl", },
 							mesh = "msh/kopfstueck_lod2.msh",
-							name = "tuer_vorne",
+							name = "kopfstueck_vorne",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
 							materials = { "mat/rumpf_ralpin.mtl", },
 							mesh = "msh/kopfstueck_lod2.msh",
-							name = "tuer_hinten",
+							name = "kopfstueck_hinten",
 							transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 					},
@@ -391,7 +331,7 @@ return {
 			},
 			description = { 
 				description = _("saadkms_back_desc"),
-				name = _("saadkms_back_ralpin_name"),
+				name = _("saadkms_back_ralpin"),
 			},
 			emissions = { 
 				noise = { 
@@ -442,11 +382,7 @@ return {
 			railVehicle = { 
 				config = { 
 					axles = { "a1", "a2", "a3", "a4", "a5", "a6", "a7", "a8", },
-					fakeBogies = {
-						{ },
-						{ },
-						{ },
-					},
+					fakeBogies = { },
 				},
 			},
 			soundConfig = { 
