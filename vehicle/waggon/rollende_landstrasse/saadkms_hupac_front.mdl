@@ -331,7 +331,7 @@ return {
 			},
 			description = { 
 				description = _("saadkms_front_desc"),
-				name = _("saadkms_front_Hupac"),
+				name = _("saadkms_front_hupac"),
 			},
 			emissions = { 
 				noise = { 
