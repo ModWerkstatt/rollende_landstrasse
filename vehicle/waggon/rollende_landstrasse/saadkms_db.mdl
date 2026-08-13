@@ -417,9 +417,9 @@ return {
 				slots = {
 					{ 
 						group = "RootNode",
-						models = {  },
+						models = { "#ROLA56FT" },
 						randomId = 1,
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3, 0, 0.3, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.3, 1, },
 					},
 				},
 			},
@@ -454,9 +454,9 @@ return {
 									capacity = 80,
 									cargoTypeSet = { 
 										cargoClassesExcluded = { },
-										cargoClassesIncluded = { },
+										cargoClassesIncluded = { "GOODS", "LIQUID", },
 										cargoTypesExcluded = { },
-										cargoTypesIncluded = { "::/cargos/goods/goods.cargo", },
+										cargoTypesIncluded = { },
 									},
 									loadIndicator = "slots_0",
 									seats = { },

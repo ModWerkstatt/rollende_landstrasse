@@ -4,7 +4,7 @@
 		
 		"fake": "Fake - ",
 	
-		"fake_sdgnss_t5": "Activate fake versions?",
+		"fake_rola": "Activate fake versions?",
 		"tooltip_fake": "Should the fake versions be available in the game?",
 	
         "saadkms_back_db": "Saadkms 690 DB (back)",
@@ -49,7 +49,7 @@
 	
 		"fake": "Fake -",	
 	
-		"fake_sdgnss_t5": "Fake-Versionen aktivieren?",
+		"fake_rola": "Fake-Versionen aktivieren?",
 		"tooltip_fake": "Sollen die Fake-Versionen verfügbar sein im Spiel?",
 	
         "saadkms_back_db": "Saadkms 690 DB (hinten)",
